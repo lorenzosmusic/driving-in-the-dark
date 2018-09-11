@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="2516" name-counter="1" event-counter="126" vca-counter="1">
+<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="2516" name-counter="1" event-counter="131" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -112,7 +112,9 @@
     <Region name="TOM2_30" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7812919" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2165" type="audio" first-edit="nothing" source-0="2163" master-source-0="2163" channels="1"/>
     <Region name="TOM_25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7812919" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2190" type="audio" first-edit="nothing" source-0="2188" master-source-0="2188" channels="1"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="261" control="0" order="41"/>
+  </Selection>
   <Locations>
     <Location id="245" name="session" start="0" end="19808119" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
@@ -298,7 +300,7 @@
       <Diskstream flags="Recordable" playlist="3_20" name="3_20" id="211" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="261" name="bassy_27" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="1921508863"/>
+      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="1921508863"/>
       <Controllable name="solo" id="269" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="275" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="277" flags="Toggle" value="0" solo-safe="0"/>
@@ -379,7 +381,7 @@
       <Diskstream flags="Recordable" playlist="bassy_27" name="bassy_27" id="302" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="351" name="HAT_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="3" flags="AudioTrack,OrderSet" color="3849492479"/>
+      <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="3849492479"/>
       <Controllable name="solo" id="359" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="365" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="367" flags="Toggle" value="0" solo-safe="0"/>
@@ -460,7 +462,7 @@
       <Diskstream flags="Recordable" playlist="HAT_29" name="HAT_29" id="392" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="441" name="KICK_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="3849507071"/>
+      <PresentationInfo order="3" flags="AudioTrack,OrderSet" color="3849507071"/>
       <Controllable name="solo" id="449" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="455" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="457" flags="Toggle" value="0" solo-safe="0"/>
@@ -541,7 +543,7 @@
       <Diskstream flags="Recordable" playlist="KICK_29" name="KICK_29" id="482" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="531" name="OH2_22" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="3849503743"/>
+      <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="3849503743"/>
       <Controllable name="solo" id="539" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="545" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="547" flags="Toggle" value="0" solo-safe="0"/>
@@ -622,7 +624,7 @@
       <Diskstream flags="Recordable" playlist="OH2_22" name="OH2_22" id="572" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="621" name="OH_22" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="6" flags="AudioTrack,OrderSet" color="2447733503"/>
+      <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="2447733503"/>
       <Controllable name="solo" id="629" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="635" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="637" flags="Toggle" value="0" solo-safe="0"/>
@@ -703,7 +705,7 @@
       <Diskstream flags="Recordable" playlist="OH_22" name="OH_22" id="662" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="711" name="SNARE_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="7" flags="AudioTrack,OrderSet" color="3852038911"/>
+      <PresentationInfo order="6" flags="AudioTrack,OrderSet" color="3852038911"/>
       <Controllable name="solo" id="719" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="725" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="727" flags="Toggle" value="0" solo-safe="0"/>
@@ -784,7 +786,7 @@
       <Diskstream flags="Recordable" playlist="SNARE_29" name="SNARE_29" id="752" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="801" name="TOM1_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="8" flags="AudioTrack,OrderSet" color="1953687039"/>
+      <PresentationInfo order="7" flags="AudioTrack,OrderSet" color="1953687039"/>
       <Controllable name="solo" id="809" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="815" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="817" flags="Toggle" value="0" solo-safe="0"/>
@@ -865,7 +867,7 @@
       <Diskstream flags="Recordable" playlist="TOM1_29" name="TOM1_29" id="842" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="891" name="TOM2_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="9" flags="AudioTrack,OrderSet" color="3336925951"/>
+      <PresentationInfo order="8" flags="AudioTrack,OrderSet" color="3336925951"/>
       <Controllable name="solo" id="899" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="905" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="907" flags="Toggle" value="0" solo-safe="0"/>
@@ -946,7 +948,7 @@
       <Diskstream flags="Recordable" playlist="TOM2_29" name="TOM2_29" id="932" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="981" name="TOM_24" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="3283478015"/>
+      <PresentationInfo order="9" flags="AudioTrack,OrderSet" color="3283478015"/>
       <Controllable name="solo" id="989" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="995" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="997" flags="Toggle" value="0" solo-safe="0"/>

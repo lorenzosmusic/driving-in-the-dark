@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="2516" name-counter="1" event-counter="131" vca-counter="1">
+<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="2518" name-counter="1" event-counter="134" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -113,7 +113,15 @@
     <Region name="TOM_25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7812919" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2190" type="audio" first-edit="nothing" source-0="2188" master-source-0="2188" channels="1"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="261" control="0" order="41"/>
+    <StripableAutomationControl stripable="170" control="0" order="42"/>
+    <StripableAutomationControl stripable="351" control="0" order="49"/>
+    <StripableAutomationControl stripable="441" control="0" order="48"/>
+    <StripableAutomationControl stripable="531" control="0" order="47"/>
+    <StripableAutomationControl stripable="621" control="0" order="46"/>
+    <StripableAutomationControl stripable="711" control="0" order="45"/>
+    <StripableAutomationControl stripable="801" control="0" order="44"/>
+    <StripableAutomationControl stripable="891" control="0" order="43"/>
+    <StripableAutomationControl stripable="981" control="0" order="50"/>
   </Selection>
   <Locations>
     <Location id="245" name="session" start="0" end="19808119" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -218,7 +226,7 @@
       </Processor>
       <Slavable/>
     </Route>
-    <Route id="170" name="3_20" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="170" name="3_20" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="1" flags="AudioTrack,OrderSet" color="1927640319"/>
       <Controllable name="solo" id="178" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="184" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -236,8 +244,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="180" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="180" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="182" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="177" interpolation-style="Discrete" state="Off"/>
@@ -380,7 +388,7 @@
       <Controllable name="rec-enable" id="297" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="bassy_27" name="bassy_27" id="302" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="351" name="HAT_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="351" name="HAT_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="3849492479"/>
       <Controllable name="solo" id="359" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="365" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -398,8 +406,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="361" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="361" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="363" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="358" interpolation-style="Discrete" state="Off"/>
@@ -461,7 +469,7 @@
       <Controllable name="rec-enable" id="387" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="HAT_29" name="HAT_29" id="392" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="441" name="KICK_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="441" name="KICK_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="3" flags="AudioTrack,OrderSet" color="3849507071"/>
       <Controllable name="solo" id="449" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="455" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -479,8 +487,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="451" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="451" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="453" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="448" interpolation-style="Discrete" state="Off"/>
@@ -542,7 +550,7 @@
       <Controllable name="rec-enable" id="477" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="KICK_29" name="KICK_29" id="482" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="531" name="OH2_22" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="531" name="OH2_22" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="3849503743"/>
       <Controllable name="solo" id="539" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="545" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -560,8 +568,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="541" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="541" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="543" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="538" interpolation-style="Discrete" state="Off"/>
@@ -623,7 +631,7 @@
       <Controllable name="rec-enable" id="567" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="OH2_22" name="OH2_22" id="572" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="621" name="OH_22" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="621" name="OH_22" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="2447733503"/>
       <Controllable name="solo" id="629" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="635" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -641,8 +649,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="631" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="631" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="633" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="628" interpolation-style="Discrete" state="Off"/>
@@ -704,7 +712,7 @@
       <Controllable name="rec-enable" id="657" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="OH_22" name="OH_22" id="662" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="711" name="SNARE_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="711" name="SNARE_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="6" flags="AudioTrack,OrderSet" color="3852038911"/>
       <Controllable name="solo" id="719" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="725" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -722,8 +730,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="721" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="721" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="723" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="718" interpolation-style="Discrete" state="Off"/>
@@ -785,7 +793,7 @@
       <Controllable name="rec-enable" id="747" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="SNARE_29" name="SNARE_29" id="752" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="801" name="TOM1_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="801" name="TOM1_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="7" flags="AudioTrack,OrderSet" color="1953687039"/>
       <Controllable name="solo" id="809" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="815" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -803,8 +811,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="811" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="811" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="813" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="808" interpolation-style="Discrete" state="Off"/>
@@ -866,7 +874,7 @@
       <Controllable name="rec-enable" id="837" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="TOM1_29" name="TOM1_29" id="842" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="891" name="TOM2_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="891" name="TOM2_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="8" flags="AudioTrack,OrderSet" color="3336925951"/>
       <Controllable name="solo" id="899" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="905" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -884,8 +892,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="901" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="901" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="903" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="898" interpolation-style="Discrete" state="Off"/>
@@ -947,7 +955,7 @@
       <Controllable name="rec-enable" id="927" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="TOM2_29" name="TOM2_29" id="932" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="981" name="TOM_24" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="981" name="TOM_24" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="9" flags="AudioTrack,OrderSet" color="3283478015"/>
       <Controllable name="solo" id="989" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="995" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -965,8 +973,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="991" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="991" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="993" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="988" interpolation-style="Discrete" state="Off"/>
@@ -1672,7 +1680,9 @@
     </Playlist>
   </Playlists>
   <UnusedPlaylists/>
-  <RouteGroups/>
+  <RouteGroups>
+    <RouteGroup id="2517" rgba="3832669439" used-to-share-gain="0" name="drums" hidden="0" active="1" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="170 891 801 711 621 531 441 351 981 "/>
+  </RouteGroups>
   <Click>
     <IO name="Click" id="51" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="Click/audio_out 1">
