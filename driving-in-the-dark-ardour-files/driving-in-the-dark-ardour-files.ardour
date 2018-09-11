@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="2518" name-counter="1" event-counter="134" vca-counter="1">
+<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="2568" name-counter="1" event-counter="187" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -21,7 +21,7 @@
     <Option name="native-file-data-format" value="FormatFloat"/>
     <Option name="native-file-header-format" value="WAVE"/>
     <Option name="auto-play" value="0"/>
-    <Option name="auto-return" value="0"/>
+    <Option name="auto-return" value="1"/>
     <Option name="auto-input" value="1"/>
     <Option name="punch-in" value="0"/>
     <Option name="punch-out" value="0"/>
@@ -113,15 +113,7 @@
     <Region name="TOM_25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7812919" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2190" type="audio" first-edit="nothing" source-0="2188" master-source-0="2188" channels="1"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="170" control="0" order="42"/>
-    <StripableAutomationControl stripable="351" control="0" order="49"/>
-    <StripableAutomationControl stripable="441" control="0" order="48"/>
-    <StripableAutomationControl stripable="531" control="0" order="47"/>
-    <StripableAutomationControl stripable="621" control="0" order="46"/>
-    <StripableAutomationControl stripable="711" control="0" order="45"/>
-    <StripableAutomationControl stripable="801" control="0" order="44"/>
-    <StripableAutomationControl stripable="891" control="0" order="43"/>
-    <StripableAutomationControl stripable="981" control="0" order="50"/>
+    <StripableAutomationControl stripable="981" control="0" order="59"/>
   </Selection>
   <Locations>
     <Location id="245" name="session" start="0" end="19808119" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -138,28 +130,28 @@
       <Controllable name="solo-safe" id="70" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Master" id="82" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_in 1">
-          <Connection other="3_20/audio_out 1"/>
-          <Connection other="HAT_29/audio_out 1"/>
-          <Connection other="KICK_29/audio_out 1"/>
-          <Connection other="OH2_22/audio_out 1"/>
-          <Connection other="OH_22/audio_out 1"/>
-          <Connection other="SNARE_29/audio_out 1"/>
+          <Connection other="KICK_mic/audio_out 1"/>
+          <Connection other="SNARE_mic/audio_out 1"/>
           <Connection other="TOM1_29/audio_out 1"/>
-          <Connection other="TOM2_29/audio_out 1"/>
-          <Connection other="TOM_24/audio_out 1"/>
           <Connection other="bassy_27/audio_out 1"/>
+          <Connection other="elec snare bad/audio_out 1"/>
+          <Connection other="electric kick/audio_out 1"/>
+          <Connection other="floor tom/audio_out 1"/>
+          <Connection other="hi-hat/audio_out 1"/>
+          <Connection other="some mic bad/audio_out 1"/>
+          <Connection other="something empty/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
-          <Connection other="3_20/audio_out 2"/>
-          <Connection other="HAT_29/audio_out 2"/>
-          <Connection other="KICK_29/audio_out 2"/>
-          <Connection other="OH2_22/audio_out 2"/>
-          <Connection other="OH_22/audio_out 2"/>
-          <Connection other="SNARE_29/audio_out 2"/>
+          <Connection other="KICK_mic/audio_out 2"/>
+          <Connection other="SNARE_mic/audio_out 2"/>
           <Connection other="TOM1_29/audio_out 2"/>
-          <Connection other="TOM2_29/audio_out 2"/>
-          <Connection other="TOM_24/audio_out 2"/>
           <Connection other="bassy_27/audio_out 2"/>
+          <Connection other="elec snare bad/audio_out 2"/>
+          <Connection other="electric kick/audio_out 2"/>
+          <Connection other="floor tom/audio_out 2"/>
+          <Connection other="hi-hat/audio_out 2"/>
+          <Connection other="some mic bad/audio_out 2"/>
+          <Connection other="something empty/audio_out 2"/>
         </Port>
       </IO>
       <IO name="Master" id="83" direction="Output" default-type="audio" user-latency="0">
@@ -226,21 +218,21 @@
       </Processor>
       <Slavable/>
     </Route>
-    <Route id="170" name="3_20" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="170" name="hi-hat" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="1" flags="AudioTrack,OrderSet" color="1927640319"/>
       <Controllable name="solo" id="178" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="184" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="186" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="3_20" id="198" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="3_20/audio_in 1">
+      <IO name="hi-hat" id="198" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="hi-hat/audio_in 1">
           <Connection other="system:capture_1"/>
         </Port>
       </IO>
-      <IO name="3_20" id="199" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="3_20/audio_out 1">
+      <IO name="hi-hat" id="199" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="hi-hat/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port type="audio" name="3_20/audio_out 2">
+        <Port type="audio" name="hi-hat/audio_out 2">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -284,7 +276,7 @@
         <Controllable name="gaincontrol" id="174" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="202" name="meter-Audio  1" active="1" user-latency="0" type="meter"/>
-      <Processor id="203" name="3_20" active="1" user-latency="0" own-input="1" own-output="0" output="3_20" type="main-outs" role="Main">
+      <Processor id="203" name="hi-hat" active="1" user-latency="0" own-input="1" own-output="0" output="hi-hat" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="189" flags="" value="0.5"/>
@@ -388,21 +380,21 @@
       <Controllable name="rec-enable" id="297" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="bassy_27" name="bassy_27" id="302" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="351" name="HAT_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="351" name="floor tom" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="3849492479"/>
       <Controllable name="solo" id="359" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="365" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="367" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="HAT_29" id="379" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="HAT_29/audio_in 1">
+      <IO name="floor tom" id="379" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="floor tom/audio_in 1">
           <Connection other="system:capture_1"/>
         </Port>
       </IO>
-      <IO name="HAT_29" id="380" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="HAT_29/audio_out 1">
+      <IO name="floor tom" id="380" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="floor tom/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port type="audio" name="HAT_29/audio_out 2">
+        <Port type="audio" name="floor tom/audio_out 2">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -446,7 +438,7 @@
         <Controllable name="gaincontrol" id="355" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="383" name="meter-Audio  1" active="1" user-latency="0" type="meter"/>
-      <Processor id="384" name="HAT_29" active="1" user-latency="0" own-input="1" own-output="0" output="HAT_29" type="main-outs" role="Main">
+      <Processor id="384" name="floor tom" active="1" user-latency="0" own-input="1" own-output="0" output="floor tom" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="370" flags="" value="0.5"/>
@@ -469,21 +461,21 @@
       <Controllable name="rec-enable" id="387" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="HAT_29" name="HAT_29" id="392" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="441" name="KICK_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="441" name="KICK_mic" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="3" flags="AudioTrack,OrderSet" color="3849507071"/>
       <Controllable name="solo" id="449" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="455" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="457" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="KICK_29" id="469" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="KICK_29/audio_in 1">
+      <IO name="KICK_mic" id="469" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="KICK_mic/audio_in 1">
           <Connection other="system:capture_2"/>
         </Port>
       </IO>
-      <IO name="KICK_29" id="470" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="KICK_29/audio_out 1">
+      <IO name="KICK_mic" id="470" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="KICK_mic/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port type="audio" name="KICK_29/audio_out 2">
+        <Port type="audio" name="KICK_mic/audio_out 2">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -527,7 +519,7 @@
         <Controllable name="gaincontrol" id="445" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="473" name="meter-Audio  1" active="1" user-latency="0" type="meter"/>
-      <Processor id="474" name="KICK_29" active="1" user-latency="0" own-input="1" own-output="0" output="KICK_29" type="main-outs" role="Main">
+      <Processor id="474" name="KICK_mic" active="1" user-latency="0" own-input="1" own-output="0" output="KICK_mic" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="460" flags="" value="0.5"/>
@@ -550,26 +542,26 @@
       <Controllable name="rec-enable" id="477" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="KICK_29" name="KICK_29" id="482" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="531" name="OH2_22" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="531" name="elec snare bad" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="3849503743"/>
       <Controllable name="solo" id="539" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="545" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="547" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="OH2_22" id="559" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="OH2_22/audio_in 1">
+      <IO name="elec snare bad" id="559" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="elec snare bad/audio_in 1">
           <Connection other="system:capture_1"/>
         </Port>
       </IO>
-      <IO name="OH2_22" id="560" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="OH2_22/audio_out 1">
+      <IO name="elec snare bad" id="560" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="elec snare bad/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port type="audio" name="OH2_22/audio_out 2">
+        <Port type="audio" name="elec snare bad/audio_out 2">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
-      <Controllable name="mute" id="541" flags="Toggle,RealTime" value="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="541" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="543" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="538" interpolation-style="Discrete" state="Off"/>
@@ -608,7 +600,7 @@
         <Controllable name="gaincontrol" id="535" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="563" name="meter-Audio  1" active="1" user-latency="0" type="meter"/>
-      <Processor id="564" name="OH2_22" active="1" user-latency="0" own-input="1" own-output="0" output="OH2_22" type="main-outs" role="Main">
+      <Processor id="564" name="elec snare bad" active="1" user-latency="0" own-input="1" own-output="0" output="elec snare bad" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="550" flags="" value="0.5"/>
@@ -631,21 +623,21 @@
       <Controllable name="rec-enable" id="567" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="OH2_22" name="OH2_22" id="572" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="621" name="OH_22" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="621" name="electric kick" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="2447733503"/>
       <Controllable name="solo" id="629" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="635" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="637" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="OH_22" id="649" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="OH_22/audio_in 1">
+      <IO name="electric kick" id="649" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="electric kick/audio_in 1">
           <Connection other="system:capture_2"/>
         </Port>
       </IO>
-      <IO name="OH_22" id="650" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="OH_22/audio_out 1">
+      <IO name="electric kick" id="650" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="electric kick/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port type="audio" name="OH_22/audio_out 2">
+        <Port type="audio" name="electric kick/audio_out 2">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -689,7 +681,7 @@
         <Controllable name="gaincontrol" id="625" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="653" name="meter-Audio  1" active="1" user-latency="0" type="meter"/>
-      <Processor id="654" name="OH_22" active="1" user-latency="0" own-input="1" own-output="0" output="OH_22" type="main-outs" role="Main">
+      <Processor id="654" name="electric kick" active="1" user-latency="0" own-input="1" own-output="0" output="electric kick" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="640" flags="" value="0.5"/>
@@ -712,21 +704,21 @@
       <Controllable name="rec-enable" id="657" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="OH_22" name="OH_22" id="662" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="711" name="SNARE_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="711" name="SNARE_mic" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="6" flags="AudioTrack,OrderSet" color="3852038911"/>
       <Controllable name="solo" id="719" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="725" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="727" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="SNARE_29" id="739" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="SNARE_29/audio_in 1">
+      <IO name="SNARE_mic" id="739" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="SNARE_mic/audio_in 1">
           <Connection other="system:capture_1"/>
         </Port>
       </IO>
-      <IO name="SNARE_29" id="740" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="SNARE_29/audio_out 1">
+      <IO name="SNARE_mic" id="740" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="SNARE_mic/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port type="audio" name="SNARE_29/audio_out 2">
+        <Port type="audio" name="SNARE_mic/audio_out 2">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -770,7 +762,7 @@
         <Controllable name="gaincontrol" id="715" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="743" name="meter-Audio  1" active="1" user-latency="0" type="meter"/>
-      <Processor id="744" name="SNARE_29" active="1" user-latency="0" own-input="1" own-output="0" output="SNARE_29" type="main-outs" role="Main">
+      <Processor id="744" name="SNARE_mic" active="1" user-latency="0" own-input="1" own-output="0" output="SNARE_mic" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="730" flags="" value="0.5"/>
@@ -874,21 +866,21 @@
       <Controllable name="rec-enable" id="837" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="TOM1_29" name="TOM1_29" id="842" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="891" name="TOM2_29" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="891" name="some mic bad" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="8" flags="AudioTrack,OrderSet" color="3336925951"/>
       <Controllable name="solo" id="899" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="905" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="907" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="TOM2_29" id="919" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="TOM2_29/audio_in 1">
+      <IO name="some mic bad" id="919" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="some mic bad/audio_in 1">
           <Connection other="system:capture_1"/>
         </Port>
       </IO>
-      <IO name="TOM2_29" id="920" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="TOM2_29/audio_out 1">
+      <IO name="some mic bad" id="920" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="some mic bad/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port type="audio" name="TOM2_29/audio_out 2">
+        <Port type="audio" name="some mic bad/audio_out 2">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -932,7 +924,7 @@
         <Controllable name="gaincontrol" id="895" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="923" name="meter-Audio  1" active="1" user-latency="0" type="meter"/>
-      <Processor id="924" name="TOM2_29" active="1" user-latency="0" own-input="1" own-output="0" output="TOM2_29" type="main-outs" role="Main">
+      <Processor id="924" name="some mic bad" active="1" user-latency="0" own-input="1" own-output="0" output="some mic bad" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="910" flags="" value="0.5"/>
@@ -955,21 +947,21 @@
       <Controllable name="rec-enable" id="927" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="TOM2_29" name="TOM2_29" id="932" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="981" name="TOM_24" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="981" name="something empty" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="drums" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="9" flags="AudioTrack,OrderSet" color="3283478015"/>
       <Controllable name="solo" id="989" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="995" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="997" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="TOM_24" id="1009" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="TOM_24/audio_in 1">
+      <IO name="something empty" id="1009" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="something empty/audio_in 1">
           <Connection other="system:capture_2"/>
         </Port>
       </IO>
-      <IO name="TOM_24" id="1010" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="TOM_24/audio_out 1">
+      <IO name="something empty" id="1010" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="something empty/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port type="audio" name="TOM_24/audio_out 2">
+        <Port type="audio" name="something empty/audio_out 2">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -1013,7 +1005,7 @@
         <Controllable name="gaincontrol" id="985" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="1013" name="meter-Audio  1" active="1" user-latency="0" type="meter"/>
-      <Processor id="1014" name="TOM_24" active="1" user-latency="0" own-input="1" own-output="0" output="TOM_24" type="main-outs" role="Main">
+      <Processor id="1014" name="something empty" active="1" user-latency="0" own-input="1" own-output="0" output="something empty" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="1000" flags="" value="0.5"/>
@@ -1295,7 +1287,7 @@
       </Region>
     </Playlist>
     <Playlist id="573" name="OH2_22" type="audio" orig-track-id="531" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="OH2_22.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="7829755" position="1710545" beat="64" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="595" type="audio" first-edit="nothing" source-0="519" master-source-0="519" channels="1">
+      <Region name="OH2_22.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="7829755" position="1710545" beat="64" sync-position="1698895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="595" type="audio" first-edit="nothing" source-0="519" master-source-0="519" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="596" interpolation-style="Curved" state="Off">
@@ -1551,7 +1543,7 @@
       </Region>
     </Playlist>
     <Playlist id="933" name="TOM2_29" type="audio" orig-track-id="891" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="TOM2_29.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="7829755" position="1710545" beat="64" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="955" type="audio" first-edit="nothing" source-0="879" master-source-0="879" channels="1">
+      <Region name="TOM2_29.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="7829755" position="1710545" beat="64" sync-position="1698895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="955" type="audio" first-edit="nothing" source-0="879" master-source-0="879" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="956" interpolation-style="Curved" state="Off">
@@ -1615,7 +1607,7 @@
       </Region>
     </Playlist>
     <Playlist id="1023" name="TOM_24" type="audio" orig-track-id="981" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="TOM_24.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="7829755" position="1710545" beat="64" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1045" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1">
+      <Region name="TOM_24.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="7829755" position="1710545" beat="64" sync-position="1698895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1045" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="1046" interpolation-style="Curved" state="Off">
@@ -1681,7 +1673,7 @@
   </Playlists>
   <UnusedPlaylists/>
   <RouteGroups>
-    <RouteGroup id="2517" rgba="3832669439" used-to-share-gain="0" name="drums" hidden="0" active="1" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="170 891 801 711 621 531 441 351 981 "/>
+    <RouteGroup id="2517" rgba="3832669439" used-to-share-gain="0" name="drums" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="170 891 801 711 621 531 441 351 981 "/>
   </RouteGroups>
   <Click>
     <IO name="Click" id="51" direction="Output" default-type="audio" user-latency="0">

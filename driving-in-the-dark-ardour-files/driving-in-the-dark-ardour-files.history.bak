@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1536638378" tv-usec="610869" name="region drag">
-    <StatefulDiffCommand obj-id="2049" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="11230800" to="11975155"/>
-        <beat from="420.19999999999999" to="448.05000000000001"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="3264" left-frame="10518166" y-origin="1">
-        <Selection>
-          <Regions>
-            <Region id="2049"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="3264" left-frame="10518166" y-origin="1">
-        <Selection>
-          <Regions>
-            <Region id="2049"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1536638381" tv-usec="693345" name="region drag">
     <StatefulDiffCommand obj-id="2049" type-name="ARDOUR::AudioRegion">
       <Changes>
