@@ -30,4 +30,5 @@
   <Meterbridge show-meterbridge="0">
     <geometry x-size="600" y-size="400" x-pos="1" y-pos="1"/>
   </Meterbridge>
+  <LastUsedSnapshot name="driving-in-the-dark-ardour-files"/>
 </instant>
