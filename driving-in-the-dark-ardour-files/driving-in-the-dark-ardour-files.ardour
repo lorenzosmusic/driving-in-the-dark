@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="11661" name-counter="1" event-counter="798" vca-counter="1">
+<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="11665" name-counter="1" event-counter="800" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -232,7 +232,9 @@
     <Region name="TOM_24.19" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2767986" length="1282909" position="3421090" beat="127.99996598639454" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="13" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7876" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1"/>
     <Region name="TOM_24.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2126532" length="641454" position="2779636" beat="103.99998639455781" sync-position="2126532" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="14" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7886" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="261" control="0" order="2"/>
+  </Selection>
   <Locations>
     <Location id="245" name="session" start="0" end="19808119" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
@@ -4863,6 +4865,50 @@
     <Protocol name="Open Sound Control (OSC)" active="0"/>
   </ControlProtocols>
   <Extra>
+    <RegionExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="11663"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="1" region-processing="Fades">
+        <Channel number="1"/>
+      </ExportChannelConfiguration>
+      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
+      <ExportFilename>
+        <Folder relative="1" path="/export"/>
+        <Field name="label" enabled="0"/>
+        <Field name="session" enabled="0"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="0"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="0" value="D_None"/>
+      </ExportFilename>
+    </RegionExportProfile>
+    <ExportRevision revision="1"/>
+    <SelectionExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="selection"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1">
+          <Port name="Master/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Master/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
+      <ExportFilename>
+        <Folder relative="1" path="/export"/>
+        <Field name="label" enabled="1" value="flipped-drums"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="1"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_BEShortY"/>
+      </ExportFilename>
+    </SelectionExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="259" x-size="748" y-size="359"/>
@@ -4979,11 +5025,11 @@
       <Window name="PM-291-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-293-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-294-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-621-11531" visible="0" x-off="390" y-off="41" x-size="860" y-size="696" custom-ui="1"/>
+      <Window name="P-621-11531" visible="0" x-off="528" y-off="0" x-size="860" y-size="696" custom-ui="1"/>
       <Window name="PM-11531-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-621-11618" visible="0" x-off="394" y-off="188" x-size="853" y-size="402" custom-ui="1"/>
+      <Window name="P-621-11618" visible="0" x-off="532" y-off="0" x-size="853" y-size="402" custom-ui="1"/>
       <Window name="PM-11618-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-621-11654" visible="0" x-off="545" y-off="261" x-size="550" y-size="257" custom-ui="1"/>
+      <Window name="P-621-11654" visible="0" x-off="683" y-off="0" x-size="550" y-size="257" custom-ui="1"/>
       <Window name="PM-11654-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
