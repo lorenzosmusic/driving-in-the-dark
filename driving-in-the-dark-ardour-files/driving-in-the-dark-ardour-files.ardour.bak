@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="19444" name-counter="1" event-counter="1119" vca-counter="1">
+<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="19477" name-counter="1" event-counter="1130" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -96,6 +96,7 @@
     <Source name="vocals 2-1.wav" type="audio" flags="" id="15997" captured-for="vocals 2" channel="0" origin="" gain="1"/>
     <Source name="vocals 2-2.wav" type="audio" flags="" id="16043" captured-for="vocals 2" channel="0" origin="" gain="1"/>
     <Source name="vocals 2-3.wav" type="audio" flags="" id="16076" captured-for="vocals 2" channel="0" origin="" gain="1"/>
+    <Source name="vocals 2-4.wav" type="audio" flags="" id="16109" captured-for="vocals 2" channel="0" origin="" gain="1"/>
     <Source name="vocals-5.wav" type="audio" flags="" id="16150" captured-for="vocals" channel="0" origin="" gain="1"/>
     <Source name="vocals-6.wav" type="audio" flags="" id="16183" captured-for="vocals" channel="0" origin="" gain="1"/>
     <Source name="vocals-7.wav" type="audio" flags="" id="16216" captured-for="vocals" channel="0" origin="" gain="1"/>
@@ -291,6 +292,7 @@
     <Region name="vocals-11.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1623682" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19186" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1"/>
     <Region name="vocals-11.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="280636" length="1282909" position="2779636" beat="104" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19232" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1"/>
     <Region name="vocals-11.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1563545" length="60137" position="4690636" beat="175.5" sync-position="1563545" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19259" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1"/>
+    <Region name="vocals 2-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1493504" position="7804364" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19453" type="audio" first-edit="nothing" source-0="16109" master-source-0="16109" channels="1"/>
   </Regions>
   <Selection/>
   <Locations>
@@ -1424,7 +1426,7 @@
       <Controllable name="rec-enable" id="1017" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="TOM_24" name="TOM_24" id="1022" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="15792" name="vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="15792" name="vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="3856364287"/>
       <Controllable name="solo" id="15800" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="15806" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -1442,8 +1444,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="15802" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="15802" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="15804" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="15799" interpolation-style="Discrete" state="Off"/>
@@ -1475,7 +1477,6 @@
         </Automation>
         <Controllable name="trimcontrol" id="15798" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="15824" name="meter-vocals" active="1" user-latency="0" type="meter"/>
       <Processor id="15822" name="Amp" active="1" user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="15795" interpolation-style="Linear" state="Off"/>
@@ -1599,6 +1600,7 @@
         <Controllable name="Input Gain" id="16301" flags="" value="1" parameter="17" symbol="level_in"/>
         <Controllable name="Output Gain" id="16303" flags="" value="1" parameter="18" symbol="level_out"/>
       </Processor>
+      <Processor id="15824" name="meter-vocals" active="1" user-latency="0" type="meter"/>
       <Processor id="15825" name="vocals" active="1" user-latency="0" own-input="1" own-output="0" output="vocals" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
@@ -1619,10 +1621,10 @@
       <Slavable/>
       <Controllable name="monitor" id="15832" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="15830" flags="Toggle,RealTime" value="0"/>
-      <Controllable name="rec-enable" id="15828" flags="Toggle,RealTime" value="1"/>
+      <Controllable name="rec-enable" id="15828" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="vocals.2" name="vocals" id="15833" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="15952" name="vocals 2" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="15952" name="vocals 2" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="3672106495"/>
       <Controllable name="solo" id="15960" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="15966" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -1673,13 +1675,13 @@
         </Automation>
         <Controllable name="trimcontrol" id="15958" flags="GainLike" value="1"/>
       </Processor>
+      <Processor id="15984" name="meter-vocals 2" active="1" user-latency="0" type="meter"/>
       <Processor id="15982" name="Amp" active="1" user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="15955" interpolation-style="Linear" state="Off"/>
         </Automation>
         <Controllable name="gaincontrol" id="15956" flags="GainLike" value="0.53577697277069092"/>
       </Processor>
-      <Processor id="15984" name="meter-vocals 2" active="1" user-latency="0" type="meter"/>
       <Processor id="15985" name="vocals 2" active="1" user-latency="0" own-input="1" own-output="0" output="vocals 2" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
@@ -1700,7 +1702,7 @@
       <Slavable/>
       <Controllable name="monitor" id="15992" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="15990" flags="Toggle,RealTime" value="0"/>
-      <Controllable name="rec-enable" id="15988" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="15988" flags="Toggle,RealTime" value="1"/>
       <Diskstream flags="Recordable" playlist="vocals 2.1" name="vocals 2" id="15993" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
   </Routes>
@@ -5229,6 +5231,37 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
+      <Region name="vocals 2-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1493504" position="7804364" beat="292.00001360544218" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19461" type="audio" first-edit="nothing" source-0="16109" master-source-0="16109" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19462" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19463" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19464" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19465" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
     </Playlist>
     <Playlist id="16345" name="vocals.2" type="audio" orig-track-id="15792" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="vocals-11.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1563545" length="60137" position="4062545" beat="152" sync-position="1563545" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19241" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1">
@@ -5625,9 +5658,9 @@
       <Window name="PM-15982-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-15984-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-15985-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-15792-16252" visible="0" x-off="114" y-off="389" x-size="853" y-size="402" custom-ui="1"/>
+      <Window name="P-15792-16252" visible="0" x-off="444" y-off="0" x-size="853" y-size="402" custom-ui="1"/>
       <Window name="PM-16252-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-15792-16279" visible="0" x-off="137" y-off="429" x-size="806" y-size="322" custom-ui="1"/>
+      <Window name="P-15792-16279" visible="0" x-off="467" y-off="0" x-size="806" y-size="322" custom-ui="1"/>
       <Window name="PM-16279-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
