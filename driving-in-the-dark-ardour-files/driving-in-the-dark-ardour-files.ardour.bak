@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="11661" name-counter="1" event-counter="798" vca-counter="1">
+<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="19444" name-counter="1" event-counter="1119" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -89,11 +89,31 @@
     <Source name="TOM1_30.wav" type="audio" flags="Broadcast" id="2138" channel="0" origin="/media/tmray/My Passport/Home/Lorenzo/driving-in-the-dark/driving-in-the-dark-ardour-files/externals/live-drum-bass-stems/stem2/TOM1_30.wav" gain="1"/>
     <Source name="TOM2_30.wav" type="audio" flags="Broadcast" id="2163" channel="0" origin="/media/tmray/My Passport/Home/Lorenzo/driving-in-the-dark/driving-in-the-dark-ardour-files/externals/live-drum-bass-stems/stem2/TOM2_30.wav" gain="1"/>
     <Source name="TOM_25.wav" type="audio" flags="Broadcast" id="2188" channel="0" origin="/media/tmray/My Passport/Home/Lorenzo/driving-in-the-dark/driving-in-the-dark-ardour-files/externals/live-drum-bass-stems/stem2/TOM_25.wav" gain="1"/>
+    <Source name="vocals-1.wav" type="audio" flags="" id="15837" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-2.wav" type="audio" flags="" id="15883" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-3.wav" type="audio" flags="" id="15916" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-4.wav" type="audio" flags="" id="15949" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals 2-1.wav" type="audio" flags="" id="15997" captured-for="vocals 2" channel="0" origin="" gain="1"/>
+    <Source name="vocals 2-2.wav" type="audio" flags="" id="16043" captured-for="vocals 2" channel="0" origin="" gain="1"/>
+    <Source name="vocals 2-3.wav" type="audio" flags="" id="16076" captured-for="vocals 2" channel="0" origin="" gain="1"/>
+    <Source name="vocals-5.wav" type="audio" flags="" id="16150" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-6.wav" type="audio" flags="" id="16183" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-7.wav" type="audio" flags="" id="16216" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-8.wav" type="audio" flags="" id="16249" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-9.wav" type="audio" flags="" id="16379" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-10.wav" type="audio" flags="" id="16412" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-11.wav" type="audio" flags="" id="16445" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-12.wav" type="audio" flags="" id="16478" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-13.wav" type="audio" flags="" id="16511" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-14.wav" type="audio" flags="" id="16544" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-15.wav" type="audio" flags="" id="18975" captured-for="vocals" channel="0" origin="" gain="1"/>
+    <Source name="vocals-16.wav" type="audio" flags="" id="19008" captured-for="vocals" channel="0" origin="" gain="1"/>
   </Sources>
   <Regions>
     <Region name="3_20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="12829636" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="160" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1"/>
     <Region name="3_20.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="7829755" position="1710545" beat="64" sync-position="1698895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="234" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1"/>
     <Region name="bassy_27" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="12829636" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="251" type="audio" first-edit="nothing" source-0="249" master-source-0="249" channels="1"/>
+    <Region name="bassy_27.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="7829755" position="1710545" beat="64" sync-position="1698895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="325" type="audio" first-edit="nothing" source-0="249" master-source-0="249" channels="1"/>
     <Region name="HAT_29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="12829636" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="341" type="audio" first-edit="nothing" source-0="339" master-source-0="339" channels="1"/>
     <Region name="HAT_29.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="7829755" position="1710545" beat="64" sync-position="1698895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="415" type="audio" first-edit="nothing" source-0="339" master-source-0="339" channels="1"/>
     <Region name="KICK_29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="12829636" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="431" type="audio" first-edit="nothing" source-0="429" master-source-0="429" channels="1"/>
@@ -165,15 +185,15 @@
     <Region name="TOM1_29.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6616714" length="2911936" position="6628364" beat="248" sync-position="6616714" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6276" type="audio" first-edit="nothing" source-0="789" master-source-0="789" channels="1"/>
     <Region name="TOM2_29.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6616714" length="2911936" position="6628364" beat="248" sync-position="6616714" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6295" type="audio" first-edit="nothing" source-0="879" master-source-0="879" channels="1"/>
     <Region name="KICK_29.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6616714" length="2911936" position="6628364" beat="248" sync-position="6616714" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6314" type="audio" first-edit="nothing" source-0="429" master-source-0="429" channels="1"/>
-    <Region name="3_20.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="7899623" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6389" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1"/>
-    <Region name="TOM_24.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="7899623" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6408" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1"/>
-    <Region name="OH_22.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="7899623" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6427" type="audio" first-edit="nothing" source-0="609" master-source-0="609" channels="1"/>
-    <Region name="OH2_22.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="7899623" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6446" type="audio" first-edit="nothing" source-0="519" master-source-0="519" channels="1"/>
-    <Region name="HAT_29.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="7899623" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6465" type="audio" first-edit="nothing" source-0="339" master-source-0="339" channels="1"/>
-    <Region name="SNARE_29.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="7899623" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6484" type="audio" first-edit="nothing" source-0="699" master-source-0="699" channels="1"/>
-    <Region name="TOM1_29.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="7899623" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6503" type="audio" first-edit="nothing" source-0="789" master-source-0="789" channels="1"/>
-    <Region name="TOM2_29.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="7899623" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6522" type="audio" first-edit="nothing" source-0="879" master-source-0="879" channels="1"/>
-    <Region name="KICK_29.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="7899623" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6541" type="audio" first-edit="nothing" source-0="429" master-source-0="429" channels="1"/>
+    <Region name="3_20.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="8113441" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6389" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1"/>
+    <Region name="TOM_24.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="8113441" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6408" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1"/>
+    <Region name="OH_22.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="8113441" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6427" type="audio" first-edit="nothing" source-0="609" master-source-0="609" channels="1"/>
+    <Region name="OH2_22.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="8113441" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6446" type="audio" first-edit="nothing" source-0="519" master-source-0="519" channels="1"/>
+    <Region name="HAT_29.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="8113441" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6465" type="audio" first-edit="nothing" source-0="339" master-source-0="339" channels="1"/>
+    <Region name="SNARE_29.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="8113441" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6484" type="audio" first-edit="nothing" source-0="699" master-source-0="699" channels="1"/>
+    <Region name="TOM1_29.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="8113441" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6503" type="audio" first-edit="nothing" source-0="789" master-source-0="789" channels="1"/>
+    <Region name="TOM2_29.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="8113441" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6522" type="audio" first-edit="nothing" source-0="879" master-source-0="879" channels="1"/>
+    <Region name="KICK_29.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="8113441" length="1069091" position="1710545" beat="64" sync-position="8113441" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="6541" type="audio" first-edit="nothing" source-0="429" master-source-0="429" channels="1"/>
     <Region name="3_20.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6616714" length="1282909" position="7269818" beat="271.99999319727885" sync-position="6616714" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7326" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1"/>
     <Region name="3_20.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="7899623" length="1629027" position="8552727" beat="319.99998979591834" sync-position="7899623" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7336" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1"/>
     <Region name="3_20.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5975259" length="641455" position="6628363" beat="247.99997619047619" sync-position="5975259" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="10" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7346" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1"/>
@@ -231,6 +251,46 @@
     <Region name="TOM_24.18" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4050895" length="641455" position="4703999" beat="175.99996258503398" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="12" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7866" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1"/>
     <Region name="TOM_24.19" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2767986" length="1282909" position="3421090" beat="127.99996598639454" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="13" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7876" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1"/>
     <Region name="TOM_24.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2126532" length="641454" position="2779636" beat="103.99998639455781" sync-position="2126532" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="14" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="7886" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1"/>
+    <Region name="vocals-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1844480" position="2572500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="15860" type="audio" first-edit="nothing" source-0="15837" master-source-0="15837" channels="1"/>
+    <Region name="vocals-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1844480" position="2572500" beat="96.25" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="15868" type="audio" first-edit="nothing" source-0="15837" master-source-0="15837" channels="1"/>
+    <Region name="vocals-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4322560" position="2131500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="15893" type="audio" first-edit="nothing" source-0="15883" master-source-0="15883" channels="1"/>
+    <Region name="vocals-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4322560" position="2131500" beat="79.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="15901" type="audio" first-edit="nothing" source-0="15883" master-source-0="15883" channels="1"/>
+    <Region name="vocals-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4050688" position="2131500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="15926" type="audio" first-edit="nothing" source-0="15916" master-source-0="15916" channels="1"/>
+    <Region name="vocals-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4050688" position="2131500" beat="79.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="15934" type="audio" first-edit="nothing" source-0="15916" master-source-0="15916" channels="1"/>
+    <Region name="vocals 2-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1972224" position="2131500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16020" type="audio" first-edit="nothing" source-0="15997" master-source-0="15997" channels="1"/>
+    <Region name="vocals 2-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1972224" position="2131500" beat="79.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16028" type="audio" first-edit="nothing" source-0="15997" master-source-0="15997" channels="1"/>
+    <Region name="vocals 2-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1581568" position="2499000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16053" type="audio" first-edit="nothing" source-0="16043" master-source-0="16043" channels="1"/>
+    <Region name="vocals 2-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1581568" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16061" type="audio" first-edit="nothing" source-0="16043" master-source-0="16043" channels="1"/>
+    <Region name="vocals 2-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1644800" position="2499000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16086" type="audio" first-edit="nothing" source-0="16076" master-source-0="16076" channels="1"/>
+    <Region name="vocals 2-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1644800" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16094" type="audio" first-edit="nothing" source-0="16076" master-source-0="16076" channels="1"/>
+    <Region name="vocals-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="232704" position="2499000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16127" type="audio" first-edit="nothing" source-0="15949" master-source-0="15949" channels="1"/>
+    <Region name="vocals-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="232704" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16135" type="audio" first-edit="nothing" source-0="15949" master-source-0="15949" channels="1"/>
+    <Region name="vocals-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1291776" position="2499000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16160" type="audio" first-edit="nothing" source-0="16150" master-source-0="16150" channels="1"/>
+    <Region name="vocals-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1291776" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16168" type="audio" first-edit="nothing" source-0="16150" master-source-0="16150" channels="1"/>
+    <Region name="vocals-6" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1589504" position="2499000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16193" type="audio" first-edit="nothing" source-0="16183" master-source-0="16183" channels="1"/>
+    <Region name="vocals-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1589504" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16201" type="audio" first-edit="nothing" source-0="16183" master-source-0="16183" channels="1"/>
+    <Region name="vocals-7" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3632384" position="2499000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16226" type="audio" first-edit="nothing" source-0="16216" master-source-0="16216" channels="1"/>
+    <Region name="vocals-8" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="715520" position="2499000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16356" type="audio" first-edit="nothing" source-0="16249" master-source-0="16249" channels="1"/>
+    <Region name="vocals-8.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="715520" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16364" type="audio" first-edit="nothing" source-0="16249" master-source-0="16249" channels="1"/>
+    <Region name="vocals-9" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="769792" position="2499000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16389" type="audio" first-edit="nothing" source-0="16379" master-source-0="16379" channels="1"/>
+    <Region name="vocals-9.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="769792" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16397" type="audio" first-edit="nothing" source-0="16379" master-source-0="16379" channels="1"/>
+    <Region name="vocals-10" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1705216" position="2499000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16422" type="audio" first-edit="nothing" source-0="16412" master-source-0="16412" channels="1"/>
+    <Region name="vocals-10.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1705216" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16430" type="audio" first-edit="nothing" source-0="16412" master-source-0="16412" channels="1"/>
+    <Region name="vocals-11" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4395008" position="2499000" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16455" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1"/>
+    <Region name="vocals-11.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4395008" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16463" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1"/>
+    <Region name="vocals-12" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="766720" position="7290808" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16488" type="audio" first-edit="nothing" source-0="16478" master-source-0="16478" channels="1"/>
+    <Region name="vocals-12.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="766720" position="7290808" beat="272.78533333333331" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16496" type="audio" first-edit="nothing" source-0="16478" master-source-0="16478" channels="1"/>
+    <Region name="vocals-13" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1747712" position="7690773" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16521" type="audio" first-edit="nothing" source-0="16511" master-source-0="16511" channels="1"/>
+    <Region name="bassy_27.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="3421091" position="1710545" beat="64" sync-position="1698895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="17685" type="audio" first-edit="nothing" source-0="249" master-source-0="249" channels="1"/>
+    <Region name="bassy_27.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5119986" length="4408664" position="5131636" beat="192" sync-position="5119986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="17694" type="audio" first-edit="nothing" source-0="249" master-source-0="249" channels="1"/>
+    <Region name="vocals-14" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2263040" position="6033682" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18952" type="audio" first-edit="nothing" source-0="16544" master-source-0="16544" channels="1"/>
+    <Region name="vocals-14.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2263040" position="6033682" beat="225.75000680272106" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18960" type="audio" first-edit="nothing" source-0="16544" master-source-0="16544" channels="1"/>
+    <Region name="vocals-15" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1972736" position="6033682" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18985" type="audio" first-edit="nothing" source-0="18975" master-source-0="18975" channels="1"/>
+    <Region name="vocals-15.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="574636" length="1398100" position="6608318" beat="247.25" sync-position="574636" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18993" type="audio" first-edit="nothing" source-0="18975" master-source-0="18975" channels="1"/>
+    <Region name="vocals-16" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1938944" position="6113864" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19120" type="audio" first-edit="nothing" source-0="19008" master-source-0="19008" channels="1"/>
+    <Region name="vocals-11.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1623682" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19186" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1"/>
+    <Region name="vocals-11.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="280636" length="1282909" position="2779636" beat="104" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19232" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1"/>
+    <Region name="vocals-11.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1563545" length="60137" position="4690636" beat="175.5" sync-position="1563545" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19259" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1"/>
   </Regions>
   <Selection/>
   <Locations>
@@ -265,6 +325,8 @@
           <Connection other="hi-hat/audio_out 1"/>
           <Connection other="some mic bad/audio_out 1"/>
           <Connection other="something empty/audio_out 1"/>
+          <Connection other="vocals 2/audio_out 1"/>
+          <Connection other="vocals/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
           <Connection other="KICK_mic/audio_out 2"/>
@@ -277,6 +339,8 @@
           <Connection other="hi-hat/audio_out 2"/>
           <Connection other="some mic bad/audio_out 2"/>
           <Connection other="something empty/audio_out 2"/>
+          <Connection other="vocals 2/audio_out 2"/>
+          <Connection other="vocals/audio_out 2"/>
         </Port>
       </IO>
       <IO name="Master" id="83" direction="Output" default-type="audio" user-latency="0">
@@ -349,9 +413,7 @@
       <Controllable name="solo-iso" id="184" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="186" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="hi-hat" id="198" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="hi-hat/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="hi-hat/audio_in 1"/>
       </IO>
       <IO name="hi-hat" id="199" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="hi-hat/audio_out 1">
@@ -430,9 +492,7 @@
       <Controllable name="solo-iso" id="275" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="277" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="bassy_27" id="289" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="bassy_27/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="bassy_27/audio_in 1"/>
       </IO>
       <IO name="bassy_27" id="290" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="bassy_27/audio_out 1">
@@ -511,9 +571,7 @@
       <Controllable name="solo-iso" id="365" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="367" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="floor tom" id="379" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="floor tom/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="floor tom/audio_in 1"/>
       </IO>
       <IO name="floor tom" id="380" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="floor tom/audio_out 1">
@@ -592,9 +650,7 @@
       <Controllable name="solo-iso" id="455" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="457" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="KICK_mic" id="469" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="KICK_mic/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="KICK_mic/audio_in 1"/>
       </IO>
       <IO name="KICK_mic" id="470" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="KICK_mic/audio_out 1">
@@ -673,9 +729,7 @@
       <Controllable name="solo-iso" id="545" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="547" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="elec snare bad" id="559" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="elec snare bad/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="elec snare bad/audio_in 1"/>
       </IO>
       <IO name="elec snare bad" id="560" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="elec snare bad/audio_out 1">
@@ -754,9 +808,7 @@
       <Controllable name="solo-iso" id="635" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="637" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="electric kick" id="649" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="electric kick/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="electric kick/audio_in 1"/>
       </IO>
       <IO name="electric kick" id="650" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="electric kick/audio_out 1">
@@ -1062,9 +1114,7 @@
       <Controllable name="solo-iso" id="725" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="727" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="SNARE_mic" id="739" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="SNARE_mic/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="SNARE_mic/audio_in 1"/>
       </IO>
       <IO name="SNARE_mic" id="740" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="SNARE_mic/audio_out 1">
@@ -1143,9 +1193,7 @@
       <Controllable name="solo-iso" id="815" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="817" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="TOM1_29" id="829" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="TOM1_29/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="TOM1_29/audio_in 1"/>
       </IO>
       <IO name="TOM1_29" id="830" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="TOM1_29/audio_out 1">
@@ -1224,9 +1272,7 @@
       <Controllable name="solo-iso" id="905" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="907" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="some mic bad" id="919" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="some mic bad/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="some mic bad/audio_in 1"/>
       </IO>
       <IO name="some mic bad" id="920" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="some mic bad/audio_out 1">
@@ -1305,9 +1351,7 @@
       <Controllable name="solo-iso" id="995" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="997" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="something empty" id="1009" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="something empty/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="something empty/audio_in 1"/>
       </IO>
       <IO name="something empty" id="1010" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="something empty/audio_out 1">
@@ -1380,10 +1424,289 @@
       <Controllable name="rec-enable" id="1017" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="TOM_24" name="TOM_24" id="1022" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
+    <Route id="15792" name="vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="3856364287"/>
+      <Controllable name="solo" id="15800" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="15806" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="15808" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="vocals" id="15820" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="vocals/audio_in 1">
+          <Connection other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="vocals" id="15821" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="vocals/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="vocals/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="15802" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="15804" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="15799" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="15805" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="15807" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="15801" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="15827" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="15829" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="15803" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="15831" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="15811" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="15815" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="15813" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="15817" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="15819" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="15810" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="15812" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="15814" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="15816" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="15818" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="15823" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="15797" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="15798" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="15824" name="meter-vocals" active="1" user-latency="0" type="meter"/>
+      <Processor id="15822" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="15795" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="15796" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="16252" name="Calf Compressor" active="0" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Compressor" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-4" id="16253" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="16255" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="16257" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="16259" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="16261" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="16263" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="16265" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="16267" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="16269" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="16271" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="16273" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+          <Port symbol="bypass" value="0"/>
+          <Port symbol="level_in" value="1"/>
+          <Port symbol="threshold" value="0.043585743755102158"/>
+          <Port symbol="ratio" value="4294967296"/>
+          <Port symbol="attack" value="0.0099999997764825821"/>
+          <Port symbol="release" value="0.0099999997764825821"/>
+          <Port symbol="makeup" value="3.5406150817871094"/>
+          <Port symbol="knee" value="2.8284299373626709"/>
+          <Port symbol="detection" value="0"/>
+          <Port symbol="stereo_link" value="0"/>
+          <Port symbol="mix" value="1"/>
+        </lv2>
+        <Controllable name="Bypass" id="16254" flags="Toggle" value="0" parameter="4" symbol="bypass"/>
+        <Controllable name="Input" id="16256" flags="" value="1" parameter="5" symbol="level_in"/>
+        <Controllable name="Threshold" id="16258" flags="" value="0.043585743755102158" parameter="10" symbol="threshold"/>
+        <Controllable name="Ratio" id="16260" flags="" value="4294967296" parameter="11" symbol="ratio"/>
+        <Controllable name="Attack" id="16262" flags="" value="0.0099999997764825821" parameter="12" symbol="attack"/>
+        <Controllable name="Release" id="16264" flags="" value="0.0099999997764825821" parameter="13" symbol="release"/>
+        <Controllable name="Makeup Gain" id="16266" flags="" value="3.5406150817871094" parameter="14" symbol="makeup"/>
+        <Controllable name="Knee" id="16268" flags="" value="2.8284299373626709" parameter="15" symbol="knee"/>
+        <Controllable name="Detection" id="16270" flags="" value="0" parameter="16" symbol="detection"/>
+        <Controllable name="Stereo Link" id="16272" flags="" value="0" parameter="17" symbol="stereo_link"/>
+        <Controllable name="Mix" id="16274" flags="" value="1" parameter="19" symbol="mix"/>
+      </Processor>
+      <Processor id="16279" name="Calf Reverb" active="0" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Reverb" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-7" id="16280" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="16282" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="16284" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="16286" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="16288" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="16290" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="16292" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="16294" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="16296" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="16298" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="16300" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="16302" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="http://calf.sourceforge.net/factory_presets#reverb_Room" last-preset-label="Room" parameter-changed-since-last-preset="1">
+          <Port symbol="decay_time" value="0.50078386068344116"/>
+          <Port symbol="hf_damp" value="5508.4599609375"/>
+          <Port symbol="room_size" value="4"/>
+          <Port symbol="diffusion" value="0.54000002145767212"/>
+          <Port symbol="amount" value="0.46976101398468018"/>
+          <Port symbol="dry" value="1"/>
+          <Port symbol="predelay" value="304"/>
+          <Port symbol="bass_cut" value="257.64999389648438"/>
+          <Port symbol="treble_cut" value="20000"/>
+          <Port symbol="on" value="1"/>
+          <Port symbol="level_in" value="1"/>
+          <Port symbol="level_out" value="1"/>
+        </lv2>
+        <Controllable name="Decay time" id="16281" flags="" value="0.50078386068344116" parameter="7" symbol="decay_time"/>
+        <Controllable name="High Frq Damp" id="16283" flags="" value="5508.4599609375" parameter="8" symbol="hf_damp"/>
+        <Controllable name="Room size" id="16285" flags="" value="4" parameter="9" symbol="room_size"/>
+        <Controllable name="Diffusion" id="16287" flags="" value="0.54000002145767212" parameter="10" symbol="diffusion"/>
+        <Controllable name="Wet Amount" id="16289" flags="" value="0.46976101398468018" parameter="11" symbol="amount"/>
+        <Controllable name="Dry Amount" id="16291" flags="" value="1" parameter="12" symbol="dry"/>
+        <Controllable name="Pre Delay" id="16293" flags="" value="304" parameter="13" symbol="predelay"/>
+        <Controllable name="Bass Cut" id="16295" flags="" value="257.64999389648438" parameter="14" symbol="bass_cut"/>
+        <Controllable name="Treble Cut" id="16297" flags="" value="20000" parameter="15" symbol="treble_cut"/>
+        <Controllable name="Active" id="16299" flags="Toggle" value="1" parameter="16" symbol="on"/>
+        <Controllable name="Input Gain" id="16301" flags="" value="1" parameter="17" symbol="level_in"/>
+        <Controllable name="Output Gain" id="16303" flags="" value="1" parameter="18" symbol="level_out"/>
+      </Processor>
+      <Processor id="15825" name="vocals" active="1" user-latency="0" own-input="1" own-output="0" output="vocals" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="15811" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="15815" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="15813" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="15817" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="15819" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="15810" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="15812" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="15814" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="15816" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="15818" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="15832" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="15830" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="15828" flags="Toggle,RealTime" value="1"/>
+      <Diskstream flags="Recordable" playlist="vocals.2" name="vocals" id="15833" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="15952" name="vocals 2" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="3672106495"/>
+      <Controllable name="solo" id="15960" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="15966" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="15968" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="vocals 2" id="15980" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="vocals 2/audio_in 1">
+          <Connection other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="vocals 2" id="15981" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="vocals 2/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="vocals 2/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="15962" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="15964" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="15959" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="15965" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="15967" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="15961" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="15987" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="15989" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="15963" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="15991" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="15971" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="15975" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="15973" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="15977" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="15979" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="15970" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="15972" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="15974" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="15976" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="15978" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="15983" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="15957" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="15958" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="15982" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="15955" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="15956" flags="GainLike" value="0.53577697277069092"/>
+      </Processor>
+      <Processor id="15984" name="meter-vocals 2" active="1" user-latency="0" type="meter"/>
+      <Processor id="15985" name="vocals 2" active="1" user-latency="0" own-input="1" own-output="0" output="vocals 2" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="15971" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="15975" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="15973" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="15977" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="15979" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="15970" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="15972" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="15974" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="15976" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="15978" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="15992" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="15990" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="15988" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="vocals 2.1" name="vocals 2" id="15993" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
   </Routes>
   <Playlists>
     <Playlist id="212" name="3_20" type="audio" orig-track-id="170" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="3_20.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11003" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1">
+      <Region name="3_20.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2981804" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11003" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="11004" interpolation-style="Curved" state="Off">
@@ -1414,7 +1737,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="3_20.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2788031" length="621410" position="2158227" beat="80.75" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="10192" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1">
+      <Region name="3_20.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2788031" length="621410" position="2158227" beat="80.75" sync-position="2788031" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="10192" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="10193" interpolation-style="Curved" state="Off">
@@ -1538,7 +1861,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="3_20.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4050895" length="641455" position="4704000" beat="176" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5699" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1">
+      <Region name="3_20.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4471850" length="220500" position="5124955" beat="191.75" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5699" type="audio" first-edit="nothing" source-0="158" master-source-0="158" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5700" interpolation-style="Curved" state="Off">
@@ -1757,38 +2080,69 @@
       </Region>
     </Playlist>
     <Playlist id="303" name="bassy_27" type="audio" orig-track-id="261" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="bassy_27.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="7829755" position="1710545" beat="64" sync-position="1698895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="325" type="audio" first-edit="nothing" source-0="249" master-source-0="249" channels="1">
+      <Region name="bassy_27.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1698895" length="3421091" position="1710545" beat="64" sync-position="1698895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18876" type="audio" first-edit="nothing" source-0="249" master-source-0="249" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
-          <AutomationList automation-id="fadein" id="326" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="18877" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </FadeIn>
         <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="327" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="18878" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </InverseFadeIn>
         <FadeOut>
-          <AutomationList automation-id="fadeout" id="328" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="18879" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="329" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="18880" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="bassy_28" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="29400" length="7783519" position="11973818" beat="448" sync-position="29400" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1999" type="audio" first-edit="nothing" source-0="1988" master-source-0="1988" channels="1">
+      <Region name="bassy_27.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5540941" length="3987709" position="5552591" beat="207.75" sync-position="5547623" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="18885" type="audio" first-edit="nothing" source-0="249" master-source-0="249" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="18886" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="18887" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="18888" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="18889" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="bassy_28" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="29400" length="7783519" position="11973818" beat="448" sync-position="29400" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1999" type="audio" first-edit="nothing" source-0="1988" master-source-0="1988" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="2000" interpolation-style="Curved" state="Off">
@@ -1821,7 +2175,7 @@
       </Region>
     </Playlist>
     <Playlist id="393" name="HAT_29" type="audio" orig-track-id="351" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="HAT_29.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11013" type="audio" first-edit="nothing" source-0="339" master-source-0="339" channels="1">
+      <Region name="HAT_29.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2981804" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11013" type="audio" first-edit="nothing" source-0="339" master-source-0="339" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="11014" interpolation-style="Curved" state="Off">
@@ -1852,7 +2206,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="HAT_29.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2794713" length="614728" position="2164909" beat="81" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="10202" type="audio" first-edit="nothing" source-0="339" master-source-0="339" channels="1">
+      <Region name="HAT_29.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2794713" length="614728" position="2164909" beat="81" sync-position="2794713" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="10202" type="audio" first-edit="nothing" source-0="339" master-source-0="339" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="10203" interpolation-style="Curved" state="Off">
@@ -1976,7 +2330,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="HAT_29.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4050895" length="641455" position="4704000" beat="176" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5775" type="audio" first-edit="nothing" source-0="339" master-source-0="339" channels="1">
+      <Region name="HAT_29.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4471850" length="220500" position="5124955" beat="191.75" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5775" type="audio" first-edit="nothing" source-0="339" master-source-0="339" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5776" interpolation-style="Curved" state="Off">
@@ -2195,7 +2549,7 @@
       </Region>
     </Playlist>
     <Playlist id="483" name="KICK_29" type="audio" orig-track-id="441" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="KICK_29.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11023" type="audio" first-edit="nothing" source-0="429" master-source-0="429" channels="1">
+      <Region name="KICK_29.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2981804" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11023" type="audio" first-edit="nothing" source-0="429" master-source-0="429" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="11024" interpolation-style="Curved" state="Off">
@@ -2350,7 +2704,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="KICK_29.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4050895" length="641455" position="4704000" beat="176" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5851" type="audio" first-edit="nothing" source-0="429" master-source-0="429" channels="1">
+      <Region name="KICK_29.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4471850" length="220500" position="5124955" beat="191.75" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5851" type="audio" first-edit="nothing" source-0="429" master-source-0="429" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5852" interpolation-style="Curved" state="Off">
@@ -2569,7 +2923,7 @@
       </Region>
     </Playlist>
     <Playlist id="573" name="OH2_22" type="audio" orig-track-id="531" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="OH2_22.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11033" type="audio" first-edit="nothing" source-0="519" master-source-0="519" channels="1">
+      <Region name="OH2_22.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2981804" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11033" type="audio" first-edit="nothing" source-0="519" master-source-0="519" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="11034" interpolation-style="Curved" state="Off">
@@ -2724,7 +3078,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="OH2_22.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4050895" length="641455" position="4704000" beat="176" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5756" type="audio" first-edit="nothing" source-0="519" master-source-0="519" channels="1">
+      <Region name="OH2_22.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4471850" length="220500" position="5124955" beat="191.75" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5756" type="audio" first-edit="nothing" source-0="519" master-source-0="519" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5757" interpolation-style="Curved" state="Off">
@@ -2943,7 +3297,7 @@
       </Region>
     </Playlist>
     <Playlist id="663" name="OH_22" type="audio" orig-track-id="621" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="OH_22.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11043" type="audio" first-edit="nothing" source-0="609" master-source-0="609" channels="1">
+      <Region name="OH_22.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2981804" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11043" type="audio" first-edit="nothing" source-0="609" master-source-0="609" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="11044" interpolation-style="Curved" state="Off">
@@ -2974,7 +3328,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="OH_22.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2788031" length="621410" position="2158227" beat="80.75" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="10232" type="audio" first-edit="nothing" source-0="609" master-source-0="609" channels="1">
+      <Region name="OH_22.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2788031" length="621410" position="2158227" beat="80.75" sync-position="2788031" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="10232" type="audio" first-edit="nothing" source-0="609" master-source-0="609" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="10233" interpolation-style="Curved" state="Off">
@@ -3098,7 +3452,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="OH_22.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4050895" length="641455" position="4704000" beat="176" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5737" type="audio" first-edit="nothing" source-0="609" master-source-0="609" channels="1">
+      <Region name="OH_22.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4471850" length="220500" position="5124955" beat="191.75" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5737" type="audio" first-edit="nothing" source-0="609" master-source-0="609" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5738" interpolation-style="Curved" state="Off">
@@ -3317,7 +3671,7 @@
       </Region>
     </Playlist>
     <Playlist id="753" name="SNARE_29" type="audio" orig-track-id="711" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="SNARE_29.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11053" type="audio" first-edit="nothing" source-0="699" master-source-0="699" channels="1">
+      <Region name="SNARE_29.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2981804" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11053" type="audio" first-edit="nothing" source-0="699" master-source-0="699" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="11054" interpolation-style="Curved" state="Off">
@@ -3472,7 +3826,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="SNARE_29.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4050895" length="641455" position="4704000" beat="176" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5794" type="audio" first-edit="nothing" source-0="699" master-source-0="699" channels="1">
+      <Region name="SNARE_29.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4471850" length="220500" position="5124955" beat="191.75" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5794" type="audio" first-edit="nothing" source-0="699" master-source-0="699" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5795" interpolation-style="Curved" state="Off">
@@ -3691,7 +4045,7 @@
       </Region>
     </Playlist>
     <Playlist id="843" name="TOM1_29" type="audio" orig-track-id="801" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="TOM1_29.25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11063" type="audio" first-edit="nothing" source-0="789" master-source-0="789" channels="1">
+      <Region name="TOM1_29.25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2981804" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11063" type="audio" first-edit="nothing" source-0="789" master-source-0="789" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="11064" interpolation-style="Curved" state="Off">
@@ -3846,7 +4200,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="TOM1_29.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4050895" length="641455" position="4704000" beat="176" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5813" type="audio" first-edit="nothing" source-0="789" master-source-0="789" channels="1">
+      <Region name="TOM1_29.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4471850" length="220500" position="5124955" beat="191.75" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5813" type="audio" first-edit="nothing" source-0="789" master-source-0="789" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5814" interpolation-style="Curved" state="Off">
@@ -4065,7 +4419,7 @@
       </Region>
     </Playlist>
     <Playlist id="933" name="TOM2_29" type="audio" orig-track-id="891" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="TOM2_29.25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11073" type="audio" first-edit="nothing" source-0="879" master-source-0="879" channels="1">
+      <Region name="TOM2_29.25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2981804" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11073" type="audio" first-edit="nothing" source-0="879" master-source-0="879" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="11074" interpolation-style="Curved" state="Off">
@@ -4220,7 +4574,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="TOM2_29.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4050895" length="641455" position="4704000" beat="176" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5832" type="audio" first-edit="nothing" source-0="879" master-source-0="879" channels="1">
+      <Region name="TOM2_29.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4471850" length="220500" position="5124955" beat="191.75" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5832" type="audio" first-edit="nothing" source-0="879" master-source-0="879" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5833" interpolation-style="Curved" state="Off">
@@ -4439,7 +4793,7 @@
       </Region>
     </Playlist>
     <Playlist id="1023" name="TOM_24" type="audio" orig-track-id="981" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="TOM_24.25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2767986" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11083" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1">
+      <Region name="TOM_24.25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2981804" length="427637" position="1710545" beat="64" sync-position="2981804" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11083" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="11084" interpolation-style="Curved" state="Off">
@@ -4594,7 +4948,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="TOM_24.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4050895" length="641455" position="4704000" beat="176" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5718" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1">
+      <Region name="TOM_24.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4471850" length="220500" position="5124955" beat="191.75" sync-position="4050895" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5718" type="audio" first-edit="nothing" source-0="969" master-source-0="969" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5719" interpolation-style="Curved" state="Off">
@@ -4812,10 +5166,234 @@
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="15994" name="vocals 2.1" type="audio" orig-track-id="15952" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="vocals-11.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="280636" length="1282909" position="2779636" beat="104" sync-position="280636" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19362" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19363" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19364" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19365" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19366" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="vocals-11.7" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1563545" length="648136" position="4704000" beat="176" sync-position="1563545" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19277" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19278" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19279" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19280" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19281" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="16345" name="vocals.2" type="audio" orig-track-id="15792" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="vocals-11.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1563545" length="60137" position="4062545" beat="152" sync-position="1563545" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19241" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19242" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19243" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19244" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19245" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="vocals-11.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2198318" length="2196690" position="4697318" beat="175.75" sync-position="1623682" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19195" type="audio" first-edit="nothing" source-0="16445" master-source-0="16445" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19196" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19197" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19198" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19199" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="vocals-16.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="514500" length="1269545" position="6628364" beat="248" sync-position="514500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19128" type="audio" first-edit="nothing" source-0="19008" master-source-0="19008" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19129" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19130" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19131" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19132" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="vocals-13.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1747712" position="7690773" beat="287.75001020408166" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16529" type="audio" first-edit="nothing" source-0="16511" master-source-0="16511" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="16530" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="16531" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="16532" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="16533" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </Playlists>
-  <UnusedPlaylists/>
+  <UnusedPlaylists>
+    <Playlist id="15834" name="vocals.1" type="audio" orig-track-id="15792" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="vocals-7.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3632384" position="2499000" beat="93.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="16234" type="audio" first-edit="nothing" source-0="16216" master-source-0="16216" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="16235" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="16236" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="16237" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="16238" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+  </UnusedPlaylists>
   <RouteGroups>
-    <RouteGroup id="2517" rgba="3832669439" used-to-share-gain="0" name="drums" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="170 891 801 711 621 531 441 351 981 "/>
+    <RouteGroup id="2517" rgba="3832669439" used-to-share-gain="0" name="drums" hidden="0" active="1" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="170 891 801 711 621 531 441 351 981 "/>
   </RouteGroups>
   <Click>
     <IO name="Click" id="51" direction="Output" default-type="audio" user-latency="0">
@@ -4863,6 +5441,50 @@
     <Protocol name="Open Sound Control (OSC)" active="0"/>
   </ControlProtocols>
   <Extra>
+    <RegionExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="11663"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="1" region-processing="Fades">
+        <Channel number="1"/>
+      </ExportChannelConfiguration>
+      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
+      <ExportFilename>
+        <Folder relative="1" path="/export"/>
+        <Field name="label" enabled="0"/>
+        <Field name="session" enabled="0"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="0"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="0" value="D_None"/>
+      </ExportFilename>
+    </RegionExportProfile>
+    <ExportRevision revision="1"/>
+    <SelectionExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="selection"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1">
+          <Port name="Master/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Master/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
+      <ExportFilename>
+        <Folder relative="1" path="/export"/>
+        <Field name="label" enabled="1" value="flipped-drums"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="1"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_BEShortY"/>
+      </ExportFilename>
+    </SelectionExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="259" x-size="748" y-size="359"/>
@@ -4933,10 +5555,16 @@
       <Window name="PM-564-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-621-652" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-621-651" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-621-11654" visible="0" x-off="683" y-off="0" x-size="550" y-size="257" custom-ui="1"/>
+      <Window name="P-621-11531" visible="0" x-off="528" y-off="0" x-size="860" y-size="696" custom-ui="1"/>
+      <Window name="P-621-11618" visible="0" x-off="532" y-off="0" x-size="853" y-size="402" custom-ui="1"/>
       <Window name="P-621-653" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-621-654" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-652-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-651-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-11654-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-11531-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-11618-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-653-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-654-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-711-742" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -4979,12 +5607,28 @@
       <Window name="PM-291-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-293-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-294-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-621-11531" visible="0" x-off="390" y-off="41" x-size="860" y-size="696" custom-ui="1"/>
-      <Window name="PM-11531-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-621-11618" visible="0" x-off="394" y-off="188" x-size="853" y-size="402" custom-ui="1"/>
-      <Window name="PM-11618-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-621-11654" visible="0" x-off="545" y-off="261" x-size="550" y-size="257" custom-ui="1"/>
-      <Window name="PM-11654-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-15792" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-15792-15823" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-15792-15822" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-15792-15824" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-15792-15825" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-15823-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-15822-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-15824-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-15825-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-15952" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-15952-15983" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-15952-15982" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-15952-15984" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-15952-15985" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-15983-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-15982-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-15984-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-15985-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-15792-16252" visible="0" x-off="114" y-off="389" x-size="853" y-size="402" custom-ui="1"/>
+      <Window name="PM-16252-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-15792-16279" visible="0" x-off="137" y-off="429" x-size="806" y-size="322" custom-ui="1"/>
+      <Window name="PM-16279-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
         <Object id="automation 58" height="64" visible="0"/>
@@ -5078,6 +5722,25 @@
         <Object id="automation 1000" height="64" visible="0"/>
         <Object id="strip 981" strip-width="Wide" visible="1">
           <Object id="processor 1011"/>
+        </Object>
+        <Object id="rtav 15792" height="64" visible="1"/>
+        <Object id="automation 15796" height="64" visible="0"/>
+        <Object id="automation 15798" height="64" visible="0"/>
+        <Object id="automation 15792 12/0/0" height="64" visible="0"/>
+        <Object id="automation 15811" height="64" visible="0"/>
+        <Object id="strip 15792" strip-width="Wide" visible="1">
+          <Object id="processor 15822"/>
+          <Object id="processor 16252"/>
+          <Object id="processor 16279"/>
+          <Object id="processor 16308"/>
+        </Object>
+        <Object id="rtav 15952" height="64" visible="1"/>
+        <Object id="automation 15956" height="64" visible="0"/>
+        <Object id="automation 15958" height="64" visible="0"/>
+        <Object id="automation 15952 12/0/0" height="64" visible="0"/>
+        <Object id="automation 15971" height="64" visible="0"/>
+        <Object id="strip 15952" strip-width="Wide" visible="1">
+          <Object id="processor 15982"/>
         </Object>
       </GUIObjectState>
     </UI>
