@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="1" id-counter="38974" name-counter="1" event-counter="1288" vca-counter="1">
+<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="0" id-counter="38981" name-counter="1" event-counter="1291" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -321,9 +321,8 @@
   </Regions>
   <Selection/>
   <Locations>
-    <Location id="245" name="session" start="0" end="19808119" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+    <Location id="245" name="session" start="0" end="10269955" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
-    <Location id="2508" name="second take (buzz bass)" start="11965800" end="11965800" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="6806" name="verse" start="2779636" end="2779636" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="6816" name="chorus" start="4062545" end="4062545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="6825" name="verse" start="4704000" end="4704000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
@@ -1746,8 +1745,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
-      <Controllable name="mute" id="28740" flags="Toggle,RealTime" value="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="28740" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="28742" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="28737" interpolation-style="Discrete" state="Off"/>
@@ -1809,7 +1808,7 @@
       <Controllable name="rec-enable" id="28766" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="guitar.2" name="guitar" id="28771" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="33413" name="guitar 2" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="33413" name="guitar 2" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="14" flags="AudioTrack,OrderSet" color="1927640831"/>
       <Controllable name="solo" id="33421" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="33427" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -1860,13 +1859,13 @@
         </Automation>
         <Controllable name="trimcontrol" id="33419" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="33445" name="meter-guitar 2" active="1" user-latency="0" type="meter"/>
       <Processor id="33443" name="Amp" active="1" user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="33416" interpolation-style="Linear" state="Off"/>
         </Automation>
         <Controllable name="gaincontrol" id="33417" flags="GainLike" value="1"/>
       </Processor>
+      <Processor id="33445" name="meter-guitar 2" active="1" user-latency="0" type="meter"/>
       <Processor id="33446" name="guitar 2" active="1" user-latency="0" own-input="1" own-output="0" output="guitar 2" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
@@ -1887,7 +1886,7 @@
       <Slavable/>
       <Controllable name="monitor" id="33453" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="33451" flags="Toggle,RealTime" value="0"/>
-      <Controllable name="rec-enable" id="33449" flags="Toggle,RealTime" value="1"/>
+      <Controllable name="rec-enable" id="33449" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="guitar 2.4" name="guitar 2" id="33454" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
   </Routes>
