@@ -1,54 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1553143411" tv-usec="878627" name="Region end trim">
-    <StatefulDiffCommand obj-id="451570" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="427636" to="106910"/>
-        <length-beats from="16" to="4.0000374149659592"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1504" left-frame="12253985" y-origin="706">
-        <Selection>
-          <Regions>
-            <Region id="451570"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1504" left-frame="12253985" y-origin="706">
-        <Selection>
-          <Regions>
-            <Region id="451570"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1553143842" tv-usec="121380" name="duplicate region">
-    <StatefulDiffCommand obj-id="74835" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="451655"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1504" left-frame="12925521" y-origin="706">
-        <Selection>
-          <Regions>
-            <Region id="451591"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1504" left-frame="12925521" y-origin="706">
-        <Selection>
-          <Regions>
-            <Region id="451655"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1553143854" tv-usec="292324" name="duplicate region">
     <StatefulDiffCommand obj-id="74835" type-name="ARDOUR::MidiPlaylist">
       <Changes>
@@ -509,6 +460,56 @@
         </Selection>
       </SelectionMemento>
       <SelectionMemento mouse-mode="MouseDraw" zoom="752" left-frame="13277712" y-origin="898">
+        <Selection>
+          <MIDINotes region-id="451742">
+            <note note-id="122025"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1553145211" tv-usec="362859" name="move notes">
+    <NoteDiffCommand midi-source="451740">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="62" new="64" id="122025"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="376" left-frame="13737184" y-origin="898">
+        <Selection>
+          <MIDINotes region-id="451742">
+            <note note-id="122025"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="376" left-frame="13737184" y-origin="898">
+        <Selection>
+          <MIDINotes region-id="451742">
+            <note note-id="122025"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1553145267" tv-usec="691469" name="move notes">
+    <NoteDiffCommand midi-source="451740">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="64" new="62" id="122025"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1504" left-frame="13207024" y-origin="898">
+        <Selection>
+          <MIDINotes region-id="451742">
+            <note note-id="122025"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1504" left-frame="13207024" y-origin="898">
         <Selection>
           <MIDINotes region-id="451742">
             <note note-id="122025"/>
