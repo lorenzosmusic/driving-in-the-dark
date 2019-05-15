@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="0" id-counter="1005003" name-counter="1" event-counter="143699" vca-counter="1">
+<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="0" id-counter="1005030" name-counter="1" event-counter="143707" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -2374,7 +2374,9 @@
     <CompoundAssociation copy="728214" original="728059"/>
     <CompoundAssociation copy="728223" original="728104"/>
   </CompoundAssociations>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="786770" control="0" order="19"/>
+  </Selection>
   <Locations>
     <Location id="245" name="session" start="0" end="41053091" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
@@ -7709,6 +7711,63 @@
           <AutomationList automation-id="gain" id="786773" interpolation-style="Linear" state="Off"/>
         </Automation>
         <Controllable name="gaincontrol" id="786774" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="1005005" name="Calf Gate" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Gate" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-4" id="1005006" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="1005008" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="1005010" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="1005012" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="1005014" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="1005016" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="1005018" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="1005020" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="1005022" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="1005024" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="1005026" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0">
+          <Port symbol="bypass" value="0"/>
+          <Port symbol="level_in" value="1"/>
+          <Port symbol="range" value="0.061250001192092896"/>
+          <Port symbol="threshold" value="0.125"/>
+          <Port symbol="ratio" value="2"/>
+          <Port symbol="attack" value="20"/>
+          <Port symbol="release" value="250"/>
+          <Port symbol="makeup" value="1"/>
+          <Port symbol="knee" value="2.8284299373626709"/>
+          <Port symbol="detection" value="0"/>
+          <Port symbol="stereo_link" value="0"/>
+        </lv2>
+        <Controllable name="Bypass" id="1005007" flags="Toggle" value="0" parameter="4" symbol="bypass"/>
+        <Controllable name="Input" id="1005009" flags="" value="1" parameter="5" symbol="level_in"/>
+        <Controllable name="Max Gain Reduction" id="1005011" flags="" value="0.061250001192092896" parameter="10" symbol="range"/>
+        <Controllable name="Threshold" id="1005013" flags="" value="0.125" parameter="11" symbol="threshold"/>
+        <Controllable name="Ratio" id="1005015" flags="" value="2" parameter="12" symbol="ratio"/>
+        <Controllable name="Attack" id="1005017" flags="" value="20" parameter="13" symbol="attack"/>
+        <Controllable name="Release" id="1005019" flags="" value="250" parameter="14" symbol="release"/>
+        <Controllable name="Makeup Gain" id="1005021" flags="" value="1" parameter="15" symbol="makeup"/>
+        <Controllable name="Knee" id="1005023" flags="" value="2.8284299373626709" parameter="16" symbol="knee"/>
+        <Controllable name="Detection" id="1005025" flags="" value="0" parameter="17" symbol="detection"/>
+        <Controllable name="Stereo Link" id="1005027" flags="" value="0" parameter="18" symbol="stereo_link"/>
       </Processor>
       <Processor id="786802" name="meter-Audio 2" active="1" user-latency="0" type="meter"/>
       <Processor id="786803" name="Audio 2" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 2" type="main-outs" role="Main">
@@ -44179,12 +44238,14 @@
       <Window name="PM-1003363-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1003365-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1003366-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1002821-1004515" visible="0" x-off="343" y-off="406" x-size="814" y-size="405" custom-ui="1"/>
+      <Window name="P-1002821-1004515" visible="0" x-off="291" y-off="0" x-size="814" y-size="405" custom-ui="1"/>
       <Window name="PM-1004515-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1002821-1004806" visible="0" x-off="335" y-off="247" x-size="830" y-size="723" custom-ui="1"/>
+      <Window name="P-1002821-1004806" visible="0" x-off="283" y-off="0" x-size="830" y-size="723" custom-ui="1"/>
       <Window name="PM-1004806-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1002821-1004889" visible="0" x-off="351" y-off="438" x-size="798" y-size="340" custom-ui="1"/>
+      <Window name="P-1002821-1004889" visible="0" x-off="299" y-off="0" x-size="798" y-size="340" custom-ui="1"/>
       <Window name="PM-1004889-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-786770-1005005" visible="0" x-off="291" y-off="0" x-size="814" y-size="405" custom-ui="1"/>
+      <Window name="PM-1005005-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
         <Object id="automation 58" height="64" visible="0"/>
@@ -44602,6 +44663,7 @@
         <Object id="automation 786728" height="66" visible="0"/>
         <Object id="strip 786770" visible="1" strip-width="Wide">
           <Object id="processor 786800"/>
+          <Object id="processor 1005005"/>
         </Object>
         <Object id="rtav 786770" height="66" visible="1"/>
         <Object id="automation 786774" height="66" visible="0"/>
