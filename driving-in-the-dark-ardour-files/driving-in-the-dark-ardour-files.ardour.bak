@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="0" id-counter="1673173" name-counter="1" event-counter="148653" vca-counter="1">
+<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="0" id-counter="1790669" name-counter="1" event-counter="148829" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -3185,6 +3185,12 @@
     <Region name="vocal-74" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="486400" position="100227988" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1555538" type="audio" first-edit="nothing" source-0="1552093" master-source-0="1552093" channels="1"/>
     <Region name="badumbump-hits.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2852018" length="133976" position="0" beat="0" sync-position="2852018" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1633648" type="audio" first-edit="nothing" source-0="1395001" source-1="1395003" master-source-0="1395001" master-source-1="1395003" channels="2"/>
     <Region name="badumbump-hits.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2965058" length="20934" position="98536558" beat="4175.0000113378683" sync-position="2965058" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1633925" type="audio" first-edit="nothing" source-0="1395001" source-1="1395003" master-source-0="1395001" master-source-1="1395003" channels="2"/>
+    <Region name="190427-driving-in-the-dark-rob-cliffZOOM0040.26" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="125601" length="1071798" position="100696900" beat="4304" sync-position="125601" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="19" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1790121" type="audio" first-edit="nothing" source-0="907909" source-1="907911" master-source-0="907909" master-source-1="907911" channels="2"/>
+    <Region name="190427-driving-in-the-dark-rob-cliffZOOM0040.27" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="125601" length="1071798" position="100696900" beat="4304" sync-position="125601" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="19" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1790251" type="audio" first-edit="nothing" source-0="907909" source-1="907911" master-source-0="907909" master-source-1="907911" channels="2"/>
+    <Region name="190427-driving-in-the-dark-rob-cliffZOOM0040.28" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="125601" length="632193" position="100696900" beat="4304" sync-position="125601" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="19" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1790279" type="audio" first-edit="nothing" source-0="907909" source-1="907911" master-source-0="907909" master-source-1="907911" channels="2"/>
+    <Region name="190427-driving-in-the-dark-rob-cliffZOOM0040.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="757794" length="439605" position="101329093" beat="4341.75" sync-position="757794" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="19" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1790288" type="audio" first-edit="nothing" source-0="907909" source-1="907911" master-source-0="907909" master-source-1="907911" channels="2"/>
+    <Region name="190427-driving-in-the-dark-rob-cliffZOOM0040.31" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="824781" length="372618" position="101396080" beat="4345.75" sync-position="774540" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="20" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1790418" type="audio" first-edit="nothing" source-0="907909" source-1="907911" master-source-0="907909" master-source-1="907911" channels="2"/>
+    <Region name="190427-driving-in-the-dark-rob-cliffZOOM0040.33" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="841528" length="355871" position="101412827" beat="4346.75" sync-position="841528" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="21" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1790549" type="audio" first-edit="nothing" source-0="907909" source-1="907911" master-source-0="907909" master-source-1="907911" channels="2"/>
   </Regions>
   <CompoundAssociations>
     <CompoundAssociation copy="45971" original="45017"/>
@@ -3208,9 +3214,7 @@
     <CompoundAssociation copy="728214" original="728059"/>
     <CompoundAssociation copy="728223" original="728104"/>
   </CompoundAssociations>
-  <Selection>
-    <StripableAutomationControl stripable="1555000" control="0" order="1"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="245" name="session" start="0" end="41053091" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
@@ -3232,6 +3236,8 @@
     <Location id="846395" name="end chorus" start="79461912" end="79461912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="846408" name="chorus-range" start="78390115" end="79461912" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
     <Location id="907953" name="Song Start" start="97330786" end="97330786" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -9854,7 +9860,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1070454" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="1070455" flags="GainLike" value="0.44304585456848145"/>
+        <Controllable name="gaincontrol" id="1070455" flags="GainLike" value="0.66201126575469971"/>
       </Processor>
       <Processor id="1477693" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -10668,7 +10674,7 @@
         <Controllable name="Analyzer Active" id="1439183" flags="Toggle" value="1" parameter="49" symbol="analyzer"/>
         <Controllable name="Analyzer Mode" id="1439185" flags="" value="1" parameter="50" symbol="analyzer_mode"/>
       </Processor>
-      <Processor id="1477780" name="Calf Compressor" active="0" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Compressor" count="1" custom="0">
+      <Processor id="1477780" name="Calf Compressor" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Compressor" count="1" custom="0">
         <Automation>
           <AutomationList automation-id="parameter-4" id="1477781" interpolation-style="Discrete" state="Off"/>
           <AutomationList automation-id="parameter-5" id="1477783" interpolation-style="Linear" state="Off"/>
@@ -40812,6 +40818,68 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
+      <Region name="190427-driving-in-the-dark-rob-cliffZOOM0040.30" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="757794" length="16746" position="101329093" beat="4341.75" sync-position="757794" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="19" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1790409" type="audio" first-edit="nothing" source-0="907909" source-1="907911" master-source-0="907909" master-source-1="907911" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1790410" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1790411" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1790412" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1790413" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="190427-driving-in-the-dark-rob-cliffZOOM0040.32" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="824781" length="16747" position="101396080" beat="4345.75" sync-position="824781" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="20" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1790540" type="audio" first-edit="nothing" source-0="907909" source-1="907911" master-source-0="907909" master-source-1="907911" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1790541" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1790542" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1790543" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1790544" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
       <Region name="190427-driving-in-the-dark-rob-cliffZOOM0040.9" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4412793" length="535897" position="102304596" beat="4400.0000128495849" sync-position="4412793" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="12" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1071448" type="audio" first-edit="nothing" source-0="907909" source-1="907911" master-source-0="907909" master-source-1="907911" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
@@ -43285,7 +43353,7 @@
       </Region>
     </Playlist>
     <Playlist id="1070493" name="vibroslap.1" type="audio" orig-track-id="1070451" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="vibroslap-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="142348" length="548852" position="100161001" beat="4272.0000090702943" sync-position="142348" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1070527" type="audio" first-edit="nothing" source-0="1070496" master-source-0="1070496" channels="1">
+      <Region name="vibroslap-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="142348" length="535899" position="100161001" beat="4272.0000090702943" sync-position="142348" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1070527" type="audio" first-edit="nothing" source-0="1070496" master-source-0="1070496" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="1070528" interpolation-style="Curved" state="Off">
@@ -44070,7 +44138,7 @@
       </Region>
     </Playlist>
     <Playlist id="1395057" name="badumbump-hits" type="audio" orig-track-id="1395015" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="badumbump-hits.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1780220" length="129788" position="98419330" beat="4168" sync-position="1780220" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1431336" type="audio" first-edit="nothing" source-0="1395001" source-1="1395003" master-source-0="1395001" master-source-1="1395003" channels="2">
+      <Region name="badumbump-hits.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1780220" length="133975" position="98419330" beat="4168" sync-position="1780220" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1431336" type="audio" first-edit="nothing" source-0="1395001" source-1="1395003" master-source-0="1395001" master-source-1="1395003" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="1431337" interpolation-style="Curved" state="Off">
@@ -44101,7 +44169,7 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="badumbump-hits.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2952498" length="37681" position="98515624" beat="4173.75" sync-position="2952498" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1633658" type="audio" first-edit="nothing" source-0="1395001" source-1="1395003" master-source-0="1395001" master-source-1="1395003" channels="2">
+      <Region name="badumbump-hits.7" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2952498" length="37681" position="98515624" beat="4173.75" sync-position="2952498" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1633658" type="audio" first-edit="nothing" source-0="1395001" source-1="1395003" master-source-0="1395001" master-source-1="1395003" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="1633659" interpolation-style="Curved" state="Off">
@@ -52194,7 +52262,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="671" y-size="510"/>
       <Window name="add-video" visible="0" x-off="0" y-off="199" x-size="800" y-size="462"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="543" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="1061" y-off="149" x-size="584" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="844" y-off="389" x-size="342" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -52268,14 +52336,20 @@
       <Window name="PM-48088-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1395015-1395046" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1395015-1395045" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1395015-1395047" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1395015-1395048" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1395046-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1395045-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1395047-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1395048-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1172678-1172709" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1172678-1172708" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1172678-1439107" visible="0" x-off="648" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
+      <Window name="P-1172678-1477780" visible="0" x-off="693" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
+      <Window name="P-1172678-1439190" visible="0" x-off="678" y-off="603" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="P-1172678-1172710" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1172678-1172711" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1172709-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1172708-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1439107-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1477780-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1439190-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1172710-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1172711-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-170-201" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-170-200" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-170-202" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -52687,6 +52761,7 @@
       <Window name="P-1555000-1555418" visible="0" x-off="0" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
       <Window name="P-1555000-1555500" visible="0" x-off="389" y-off="74" x-size="850" y-size="404" custom-ui="1"/>
       <Window name="P-1555000-1594618" visible="0" x-off="0" y-off="89" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="P-1555000-1673130" visible="0" x-off="586" y-off="0" x-size="918" y-size="411" custom-ui="1"/>
       <Window name="P-1555000-1555032" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1555000-1555033" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-1555031-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -52694,22 +52769,9 @@
       <Window name="PM-1555418-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1555500-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1594618-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1673130-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1555032-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1555033-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1172678-1172709" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1172678-1172708" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1172678-1439107" visible="0" x-off="648" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
-      <Window name="P-1172678-1477780" visible="0" x-off="693" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
-      <Window name="P-1172678-1439190" visible="0" x-off="678" y-off="603" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="P-1172678-1172710" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1172678-1172711" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1172709-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1172708-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1439107-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1477780-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1439190-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1172710-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1172711-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1431353-1431384" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1431353-1431383" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1431353-1432607" visible="0" x-off="648" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
@@ -52738,6 +52800,14 @@
       <Window name="PM-1432465-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1322710-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1322711-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1395015-1395046" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1395015-1395045" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1395015-1395047" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1395015-1395048" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1395046-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1395045-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1395047-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1395048-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-907964-907995" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-907964-907994" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-907964-907996" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -52808,8 +52878,6 @@
       <Window name="PM-1003363-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1003365-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1003366-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1555000-1673130" visible="0" x-off="586" y-off="0" x-size="918" y-size="411" custom-ui="1"/>
-      <Window name="PM-1673130-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
         <Object id="automation 58" height="64" visible="0"/>
