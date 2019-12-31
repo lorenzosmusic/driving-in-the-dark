@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="0" id-counter="1829880" name-counter="1" event-counter="148991" vca-counter="1">
+<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="0" id-counter="1869105" name-counter="1" event-counter="149076" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -3215,7 +3215,7 @@
     <CompoundAssociation copy="728223" original="728104"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="54" control="0" order="22"/>
+    <StripableAutomationControl stripable="1431353" control="0" order="7"/>
   </Selection>
   <Locations>
     <Location id="245" name="session" start="0" end="41053091" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -8502,7 +8502,7 @@
         <AutomationList automation-id="monitor" id="786809" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="786789" flags="" value="0.50961536169052124"/>
+        <Controllable name="pan-azimuth" id="786789" flags="" value="0.5"/>
         <Controllable name="pan-width" id="786793" flags="" value="0"/>
         <Controllable name="pan-elevation" id="786791" flags="" value="0"/>
         <Controllable name="pan-frontback" id="786795" flags="" value="0"/>
@@ -8729,7 +8729,7 @@
       <Processor id="786803" name="Drums/Bass" active="1" user-latency="0" own-input="1" own-output="0" output="Drums/Bass" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="786789" flags="" value="0.50961536169052124"/>
+          <Controllable name="pan-azimuth" id="786789" flags="" value="0.5"/>
           <Controllable name="pan-width" id="786793" flags="" value="0"/>
           <Controllable name="pan-elevation" id="786791" flags="" value="0"/>
           <Controllable name="pan-frontback" id="786795" flags="" value="0"/>
@@ -8858,7 +8858,7 @@
         <AutomationList automation-id="monitor" id="908244" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="908224" flags="" value="0.74038463830947876"/>
+        <Controllable name="pan-azimuth" id="908224" flags="" value="0.23076923076923067"/>
         <Controllable name="pan-width" id="908228" flags="" value="0"/>
         <Controllable name="pan-elevation" id="908226" flags="" value="0"/>
         <Controllable name="pan-frontback" id="908230" flags="" value="0"/>
@@ -8887,7 +8887,7 @@
       <Processor id="908238" name="harmonica" active="1" user-latency="0" own-input="1" own-output="0" output="harmonica" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="908224" flags="" value="0.74038463830947876"/>
+          <Controllable name="pan-azimuth" id="908224" flags="" value="0.23076923076923067"/>
           <Controllable name="pan-width" id="908228" flags="" value="0"/>
           <Controllable name="pan-elevation" id="908226" flags="" value="0"/>
           <Controllable name="pan-frontback" id="908230" flags="" value="0"/>
@@ -10063,7 +10063,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1070454" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="1070455" flags="GainLike" value="0.66201126575469971"/>
+        <Controllable name="gaincontrol" id="1070455" flags="GainLike" value="0.78274393081665039"/>
       </Processor>
       <Processor id="1477693" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -10205,6 +10205,90 @@
         <Controllable name="Zoom" id="1477767" flags="" value="0.25" parameter="48" symbol="zoom"/>
         <Controllable name="Analyzer Active" id="1477769" flags="Toggle" value="1" parameter="49" symbol="analyzer"/>
         <Controllable name="Analyzer Mode" id="1477771" flags="" value="1" parameter="50" symbol="analyzer_mode"/>
+      </Processor>
+      <Processor id="1869062" name="Calf Vintage Delay" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/VintageDelay" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-4" id="1869063" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="1869065" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="1869067" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="1869069" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="1869071" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="1869073" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="1869075" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="1869077" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-20" id="1869079" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-21" id="1869081" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-22" id="1869083" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-23" id="1869085" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-24" id="1869087" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-25" id="1869089" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-26" id="1869091" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-27" id="1869093" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-28" id="1869095" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-29" id="1869097" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-30" id="1869099" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-31" id="1869101" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+          <Port symbol="on" value="1"/>
+          <Port symbol="level_in" value="1"/>
+          <Port symbol="level_out" value="1"/>
+          <Port symbol="subdiv" value="4"/>
+          <Port symbol="time_l" value="5"/>
+          <Port symbol="time_r" value="4"/>
+          <Port symbol="feedback" value="0.5"/>
+          <Port symbol="amount" value="0.25"/>
+          <Port symbol="mix_mode" value="0"/>
+          <Port symbol="medium" value="0"/>
+          <Port symbol="dry" value="1"/>
+          <Port symbol="width" value="1"/>
+          <Port symbol="fragmentation" value="0"/>
+          <Port symbol="pbeats" value="4"/>
+          <Port symbol="pfrag" value="4"/>
+          <Port symbol="timing" value="3"/>
+          <Port symbol="bpm" value="120"/>
+          <Port symbol="ms" value="500"/>
+          <Port symbol="hz" value="2"/>
+          <Port symbol="bpm_host" value="158"/>
+        </lv2>
+        <Controllable name="Active" id="1869064" flags="Toggle" value="1" parameter="4" symbol="on"/>
+        <Controllable name="Input Gain" id="1869066" flags="" value="1" parameter="5" symbol="level_in"/>
+        <Controllable name="Output Gain" id="1869068" flags="" value="1" parameter="6" symbol="level_out"/>
+        <Controllable name="Subdivide" id="1869070" flags="" value="4" parameter="15" symbol="subdiv"/>
+        <Controllable name="Time L" id="1869072" flags="" value="5" parameter="16" symbol="time_l"/>
+        <Controllable name="Time R" id="1869074" flags="" value="4" parameter="17" symbol="time_r"/>
+        <Controllable name="Feedback" id="1869076" flags="" value="0.5" parameter="18" symbol="feedback"/>
+        <Controllable name="Wet" id="1869078" flags="" value="0.25" parameter="19" symbol="amount"/>
+        <Controllable name="Mix mode" id="1869080" flags="" value="0" parameter="20" symbol="mix_mode"/>
+        <Controllable name="Medium" id="1869082" flags="" value="0" parameter="21" symbol="medium"/>
+        <Controllable name="Dry" id="1869084" flags="" value="1" parameter="22" symbol="dry"/>
+        <Controllable name="Stereo Width" id="1869086" flags="" value="1" parameter="23" symbol="width"/>
+        <Controllable name="Fragmentation" id="1869088" flags="" value="0" parameter="24" symbol="fragmentation"/>
+        <Controllable name="Pattern Beats" id="1869090" flags="" value="4" parameter="25" symbol="pbeats"/>
+        <Controllable name="Pattern Fragmentation" id="1869092" flags="" value="4" parameter="26" symbol="pfrag"/>
+        <Controllable name="Timing" id="1869094" flags="" value="3" parameter="27" symbol="timing"/>
+        <Controllable name="BPM" id="1869096" flags="" value="120" parameter="28" symbol="bpm"/>
+        <Controllable name="ms" id="1869098" flags="" value="500" parameter="29" symbol="ms"/>
+        <Controllable name="Frequency" id="1869100" flags="" value="2" parameter="30" symbol="hz"/>
+        <Controllable name="Host BPM" id="1869102" flags="" value="120" parameter="31" symbol="bpm_host"/>
       </Processor>
       <Processor id="1070483" name="meter-vibroslap" active="1" user-latency="0" type="meter"/>
       <Processor id="1070484" name="vibroslap" active="1" user-latency="0" own-input="1" own-output="0" output="vibroslap" type="main-outs" role="Main">
@@ -11408,7 +11492,7 @@
         <AutomationList automation-id="monitor" id="1431392" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1431372" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="1431372" flags="" value="0.63461538461538425"/>
         <Controllable name="pan-width" id="1431376" flags="" value="0"/>
         <Controllable name="pan-elevation" id="1431374" flags="" value="0"/>
         <Controllable name="pan-frontback" id="1431378" flags="" value="0"/>
@@ -11742,7 +11826,7 @@
       <Processor id="1431386" name="eric guitar edit" active="1" user-latency="0" own-input="1" own-output="0" output="eric guitar edit" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1431372" flags="" value="0.5"/>
+          <Controllable name="pan-azimuth" id="1431372" flags="" value="0.63461538461538425"/>
           <Controllable name="pan-width" id="1431376" flags="" value="0"/>
           <Controllable name="pan-elevation" id="1431374" flags="" value="0"/>
           <Controllable name="pan-frontback" id="1431378" flags="" value="0"/>
@@ -52465,7 +52549,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="671" y-size="510"/>
       <Window name="add-video" visible="0" x-off="0" y-off="199" x-size="800" y-size="462"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="543" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="584" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="844" y-off="389" x-size="342" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -52475,6 +52559,14 @@
       <Window name="midi-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-54" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-786770" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-908205" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1070451" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1069574" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1555000" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1172678" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1431353" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1395015" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-170" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-351" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-441" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -52510,17 +52602,7 @@
       <Window name="RPM-44913" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-165881" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-786709" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-786770" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-908205" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-1070962" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-1070545" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-1070451" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-1069574" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-1555000" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-1172678" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-1431353" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1322678" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-1395015" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-907964" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-908427" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1002821" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -52529,6 +52611,8 @@
       <Window name="RPM-1003133" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1003233" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1003333" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1070962" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-1070545" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-48088" visible="0" x-off="267" y-off="0" x-size="853" y-size="402" custom-ui="1"/>
@@ -52539,6 +52623,102 @@
       <Window name="PM-48088-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-786770-786801" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-786770-786800" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-786770-1439024" visible="0" x-off="648" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
+      <Window name="P-786770-1005005" visible="0" x-off="291" y-off="0" x-size="814" y-size="405" custom-ui="1"/>
+      <Window name="P-786770-786802" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-786770-786803" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-786801-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-786800-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1439024-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1005005-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-786802-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-786803-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-908205-908236" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-908205-908235" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-908205-908237" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-908205-908238" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-908236-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-908235-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-908237-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-908238-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1070451-1070482" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1070451-1070481" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1070451-1477693" visible="0" x-off="685" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
+      <Window name="P-1070451-1070483" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1070451-1070484" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1070482-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1070481-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1477693-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1070483-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1070484-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1069574-1069605" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1069574-1069604" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1069574-1829771" visible="0" x-off="906" y-off="318" x-size="867" y-size="713" custom-ui="1"/>
+      <Window name="P-1069574-1829742" visible="0" x-off="936" y-off="507" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="P-1069574-1069606" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1069574-1069607" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1069605-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1069604-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1829771-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1829742-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1069606-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1069607-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1555000-1555031" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1555000-1555030" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1555000-1555418" visible="0" x-off="0" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
+      <Window name="P-1555000-1555500" visible="0" x-off="389" y-off="74" x-size="850" y-size="404" custom-ui="1"/>
+      <Window name="P-1555000-1594618" visible="0" x-off="0" y-off="89" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="P-1555000-1673130" visible="0" x-off="586" y-off="0" x-size="918" y-size="411" custom-ui="1"/>
+      <Window name="P-1555000-1555032" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1555000-1555033" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1555031-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1555030-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1555418-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1555500-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1594618-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1673130-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1555032-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1555033-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1172678-1172709" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1172678-1172708" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1172678-1439107" visible="0" x-off="648" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
+      <Window name="P-1172678-1477780" visible="0" x-off="693" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
+      <Window name="P-1172678-1439190" visible="0" x-off="678" y-off="603" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="P-1172678-1172710" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1172678-1172711" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1172709-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1172708-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1439107-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1477780-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1439190-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1172710-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1172711-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1431353-1431384" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1431353-1431383" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1431353-1432607" visible="0" x-off="648" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
+      <Window name="P-1431353-1438434" visible="0" x-off="664" y-off="576" x-size="834" y-size="388" custom-ui="1"/>
+      <Window name="P-1431353-1438979" visible="0" x-off="656" y-off="568" x-size="850" y-size="404" custom-ui="1"/>
+      <Window name="P-1431353-1432689" visible="0" x-off="678" y-off="603" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="P-1431353-1431385" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1431353-1431386" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1431384-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1431383-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1432607-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1438434-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1438979-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1432689-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1431385-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1431386-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1395015-1395046" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1395015-1395045" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1395015-1395047" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1395015-1395048" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1395046-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1395045-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1395047-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1395048-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-170-201" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-170-200" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-170-202" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -52883,114 +53063,6 @@
       <Window name="PM-786739-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-786741-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-786742-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-786770-786801" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-786770-786800" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-786770-1439024" visible="0" x-off="648" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
-      <Window name="P-786770-1005005" visible="0" x-off="291" y-off="0" x-size="814" y-size="405" custom-ui="1"/>
-      <Window name="P-786770-786802" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-786770-786803" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-786801-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-786800-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1439024-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1005005-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-786802-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-786803-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-908205-908236" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-908205-908235" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-908205-908237" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-908205-908238" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-908236-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-908235-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-908237-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-908238-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1070962-1070993" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1070962-1070992" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1070962-1071194" visible="0" x-off="759" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
-      <Window name="P-1070962-1071165" visible="0" x-off="789" y-off="746" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="P-1070962-1070994" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1070962-1070995" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1070993-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1070992-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1071194-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1071165-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1070994-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1070995-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1070545-1070576" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1070545-1070575" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1070545-1070668" visible="0" x-off="789" y-off="746" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="P-1070545-1070767" visible="0" x-off="611" y-off="512" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1070545-1070577" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1070545-1070578" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1070576-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1070575-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1070668-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1070767-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1070577-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1070578-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1070451-1070482" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1070451-1070481" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1070451-1477693" visible="0" x-off="685" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
-      <Window name="P-1070451-1070483" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1070451-1070484" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1070482-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1070481-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1477693-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1070483-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1070484-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1069574-1069605" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1069574-1069604" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1069574-1069606" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1069574-1069607" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1069605-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1069604-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1069606-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1069607-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1555000-1555031" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1555000-1555030" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1555000-1555418" visible="0" x-off="0" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
-      <Window name="P-1555000-1555500" visible="0" x-off="389" y-off="74" x-size="850" y-size="404" custom-ui="1"/>
-      <Window name="P-1555000-1594618" visible="0" x-off="0" y-off="89" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="P-1555000-1673130" visible="0" x-off="586" y-off="0" x-size="918" y-size="411" custom-ui="1"/>
-      <Window name="P-1555000-1555032" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1555000-1555033" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1555031-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1555030-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1555418-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1555500-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1594618-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1673130-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1555032-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1555033-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1172678-1172709" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1172678-1172708" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1172678-1439107" visible="0" x-off="648" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
-      <Window name="P-1172678-1477780" visible="0" x-off="693" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
-      <Window name="P-1172678-1439190" visible="0" x-off="678" y-off="603" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="P-1172678-1172710" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1172678-1172711" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1172709-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1172708-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1439107-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1477780-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1439190-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1172710-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1172711-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1431353-1431384" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1431353-1431383" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1431353-1432607" visible="0" x-off="648" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
-      <Window name="P-1431353-1438434" visible="0" x-off="664" y-off="576" x-size="834" y-size="388" custom-ui="1"/>
-      <Window name="P-1431353-1438979" visible="0" x-off="656" y-off="568" x-size="850" y-size="404" custom-ui="1"/>
-      <Window name="P-1431353-1432689" visible="0" x-off="678" y-off="603" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="P-1431353-1431385" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1431353-1431386" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1431384-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1431383-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1432607-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1438434-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1438979-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1432689-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1431385-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1431386-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1322678-1322709" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1322678-1322708" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1322678-1432365" visible="0" x-off="648" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
@@ -53003,14 +53075,6 @@
       <Window name="PM-1432465-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1322710-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1322711-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1395015-1395046" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1395015-1395045" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1395015-1395047" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1395015-1395048" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-1395046-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1395045-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1395047-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1395048-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-907964-907995" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-907964-907994" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-907964-907996" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -53081,10 +53145,32 @@
       <Window name="PM-1003363-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1003365-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1003366-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1069574-1829742" visible="0" x-off="531" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="PM-1829742-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1069574-1829771" visible="0" x-off="501" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
-      <Window name="PM-1829771-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1070962-1070993" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1070962-1070992" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1070962-1071194" visible="0" x-off="759" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
+      <Window name="P-1070962-1071165" visible="0" x-off="789" y-off="746" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="P-1070962-1070994" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1070962-1070995" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1070993-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1070992-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1071194-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1071165-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1070994-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1070995-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1070545-1070576" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1070545-1070575" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1070545-1070668" visible="0" x-off="789" y-off="746" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="P-1070545-1070767" visible="0" x-off="611" y-off="512" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1070545-1070577" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1070545-1070578" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-1070576-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1070575-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1070668-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1070767-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1070577-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1070578-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1070451-1869062" visible="0" x-off="216" y-off="0" x-size="918" y-size="411" custom-ui="1"/>
+      <Window name="PM-1869062-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
         <Object id="automation 58" height="64" visible="0"/>
@@ -53623,6 +53709,7 @@
         <Object id="strip 1070451" strip-width="Wide" visible="1">
           <Object id="processor 1070481"/>
           <Object id="processor 1477693"/>
+          <Object id="processor 1869062"/>
         </Object>
         <Object id="rtav 1070545" height="66" visible="1"/>
         <Object id="automation 1070549" height="66" visible="0"/>
