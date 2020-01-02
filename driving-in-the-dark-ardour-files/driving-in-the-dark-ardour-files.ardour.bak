@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="0" id-counter="1869105" name-counter="1" event-counter="149076" vca-counter="1">
+<Session version="3002" name="driving-in-the-dark-ardour-files" sample-rate="44100" end-is-free="0" id-counter="1908345" name-counter="1" event-counter="149186" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -3215,7 +3215,7 @@
     <CompoundAssociation copy="728223" original="728104"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="1431353" control="0" order="7"/>
+    <StripableAutomationControl stripable="1431353" control="0" order="10"/>
   </Selection>
   <Locations>
     <Location id="245" name="session" start="0" end="41053091" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -3240,6 +3240,7 @@
     <Location id="907953" name="Song Start" start="97330786" end="97330786" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="1869106" name="song end" start="103711330" end="103711330" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -8525,7 +8526,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="786773" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="786774" flags="GainLike" value="0.64079642295837402"/>
+        <Controllable name="gaincontrol" id="786774" flags="GainLike" value="0.57929146289825439"/>
       </Processor>
       <Processor id="1439024" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -8616,8 +8617,8 @@
           <Port symbol="p2_freq" value="528.53936767578125"/>
           <Port symbol="p2_q" value="1"/>
           <Port symbol="p3_active" value="1"/>
-          <Port symbol="p3_level" value="3.8010735511779785"/>
-          <Port symbol="p3_freq" value="2081.386474609375"/>
+          <Port symbol="p3_level" value="3.5796701908111572"/>
+          <Port symbol="p3_freq" value="2036.5924072265625"/>
           <Port symbol="p3_q" value="1"/>
           <Port symbol="p4_active" value="1"/>
           <Port symbol="p4_level" value="1.5921714305877686"/>
@@ -8656,8 +8657,8 @@
         <Controllable name="Freq 2" id="1439076" flags="" value="528.53936767578125" parameter="37" symbol="p2_freq"/>
         <Controllable name="Q 2" id="1439078" flags="" value="1" parameter="38" symbol="p2_q"/>
         <Controllable name="F3 Active" id="1439080" flags="" value="1" parameter="39" symbol="p3_active"/>
-        <Controllable name="Level 3" id="1439082" flags="" value="3.8010735511779785" parameter="40" symbol="p3_level"/>
-        <Controllable name="Freq 3" id="1439084" flags="" value="2081.386474609375" parameter="41" symbol="p3_freq"/>
+        <Controllable name="Level 3" id="1439082" flags="" value="3.5796701908111572" parameter="40" symbol="p3_level"/>
+        <Controllable name="Freq 3" id="1439084" flags="" value="2036.5924072265625" parameter="41" symbol="p3_freq"/>
         <Controllable name="Q 3" id="1439086" flags="" value="1" parameter="42" symbol="p3_q"/>
         <Controllable name="F4 Active" id="1439088" flags="" value="1" parameter="43" symbol="p4_active"/>
         <Controllable name="Level 4" id="1439090" flags="" value="1.5921714305877686" parameter="44" symbol="p4_level"/>
@@ -8858,7 +8859,7 @@
         <AutomationList automation-id="monitor" id="908244" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="908224" flags="" value="0.23076923076923067"/>
+        <Controllable name="pan-azimuth" id="908224" flags="" value="0.23076923191547394"/>
         <Controllable name="pan-width" id="908228" flags="" value="0"/>
         <Controllable name="pan-elevation" id="908226" flags="" value="0"/>
         <Controllable name="pan-frontback" id="908230" flags="" value="0"/>
@@ -8887,7 +8888,7 @@
       <Processor id="908238" name="harmonica" active="1" user-latency="0" own-input="1" own-output="0" output="harmonica" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="908224" flags="" value="0.23076923076923067"/>
+          <Controllable name="pan-azimuth" id="908224" flags="" value="0.23076923191547394"/>
           <Controllable name="pan-width" id="908228" flags="" value="0"/>
           <Controllable name="pan-elevation" id="908226" flags="" value="0"/>
           <Controllable name="pan-frontback" id="908230" flags="" value="0"/>
@@ -10795,7 +10796,7 @@
         <AutomationList automation-id="monitor" id="1172717" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1172697" flags="" value="0.3461538553237915"/>
+        <Controllable name="pan-azimuth" id="1172697" flags="" value="0.5"/>
         <Controllable name="pan-width" id="1172701" flags="" value="0"/>
         <Controllable name="pan-elevation" id="1172699" flags="" value="0"/>
         <Controllable name="pan-frontback" id="1172703" flags="" value="0"/>
@@ -10818,7 +10819,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1172681" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="1172682" flags="GainLike" value="0.99801576137542725"/>
+        <Controllable name="gaincontrol" id="1172682" flags="GainLike" value="0.8045920729637146"/>
       </Processor>
       <Processor id="1439107" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -10908,7 +10909,7 @@
           <Port symbol="p2_level" value="1"/>
           <Port symbol="p2_freq" value="500"/>
           <Port symbol="p2_q" value="1"/>
-          <Port symbol="p3_active" value="1"/>
+          <Port symbol="p3_active" value="0"/>
           <Port symbol="p3_level" value="3.2715103626251221"/>
           <Port symbol="p3_freq" value="1907.908447265625"/>
           <Port symbol="p3_q" value="1"/>
@@ -10948,7 +10949,7 @@
         <Controllable name="Level 2" id="1439157" flags="" value="1" parameter="36" symbol="p2_level"/>
         <Controllable name="Freq 2" id="1439159" flags="" value="500" parameter="37" symbol="p2_freq"/>
         <Controllable name="Q 2" id="1439161" flags="" value="1" parameter="38" symbol="p2_q"/>
-        <Controllable name="F3 Active" id="1439163" flags="" value="1" parameter="39" symbol="p3_active"/>
+        <Controllable name="F3 Active" id="1439163" flags="" value="0" parameter="39" symbol="p3_active"/>
         <Controllable name="Level 3" id="1439165" flags="" value="3.2715103626251221" parameter="40" symbol="p3_level"/>
         <Controllable name="Freq 3" id="1439167" flags="" value="1907.908447265625" parameter="41" symbol="p3_freq"/>
         <Controllable name="Q 3" id="1439169" flags="" value="1" parameter="42" symbol="p3_q"/>
@@ -11082,7 +11083,7 @@
       <Processor id="1172711" name="vocal" active="1" user-latency="0" own-input="1" own-output="0" output="vocal" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1172697" flags="" value="0.3461538553237915"/>
+          <Controllable name="pan-azimuth" id="1172697" flags="" value="0.5"/>
           <Controllable name="pan-width" id="1172701" flags="" value="0"/>
           <Controllable name="pan-elevation" id="1172699" flags="" value="0"/>
           <Controllable name="pan-frontback" id="1172703" flags="" value="0"/>
@@ -11492,7 +11493,7 @@
         <AutomationList automation-id="monitor" id="1431392" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1431372" flags="" value="0.63461538461538425"/>
+        <Controllable name="pan-azimuth" id="1431372" flags="" value="0.63461536169052124"/>
         <Controllable name="pan-width" id="1431376" flags="" value="0"/>
         <Controllable name="pan-elevation" id="1431374" flags="" value="0"/>
         <Controllable name="pan-frontback" id="1431378" flags="" value="0"/>
@@ -11515,7 +11516,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1431356" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="1431357" flags="GainLike" value="0.20610718429088593"/>
+        <Controllable name="gaincontrol" id="1431357" flags="GainLike" value="0.15204344689846039"/>
       </Processor>
       <Processor id="1432607" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -11826,7 +11827,7 @@
       <Processor id="1431386" name="eric guitar edit" active="1" user-latency="0" own-input="1" own-output="0" output="eric guitar edit" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="1431372" flags="" value="0.63461538461538425"/>
+          <Controllable name="pan-azimuth" id="1431372" flags="" value="0.63461536169052124"/>
           <Controllable name="pan-width" id="1431376" flags="" value="0"/>
           <Controllable name="pan-elevation" id="1431374" flags="" value="0"/>
           <Controllable name="pan-frontback" id="1431378" flags="" value="0"/>
@@ -11899,7 +11900,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1555003" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="1555004" flags="GainLike" value="0.7281380295753479"/>
+        <Controllable name="gaincontrol" id="1555004" flags="GainLike" value="0.31631699204444885"/>
       </Processor>
       <Processor id="1555418" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -52549,7 +52550,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="671" y-size="510"/>
       <Window name="add-video" visible="0" x-off="0" y-off="199" x-size="800" y-size="462"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="584" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="543" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="844" y-off="389" x-size="342" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -52646,11 +52647,13 @@
       <Window name="P-1070451-1070482" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1070451-1070481" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1070451-1477693" visible="0" x-off="685" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
+      <Window name="P-1070451-1869062" visible="0" x-off="940" y-off="152" x-size="918" y-size="411" custom-ui="1"/>
       <Window name="P-1070451-1070483" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1070451-1070484" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-1070482-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1070481-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1477693-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1869062-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1070483-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1070484-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1069574-1069605" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -53169,8 +53172,6 @@
       <Window name="PM-1070767-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1070577-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1070578-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1070451-1869062" visible="0" x-off="216" y-off="0" x-size="918" y-size="411" custom-ui="1"/>
-      <Window name="PM-1869062-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
         <Object id="automation 58" height="64" visible="0"/>
