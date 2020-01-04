@@ -1,122 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1577421907" tv-usec="167840" name="Region end trim">
-    <StatefulDiffCommand obj-id="1633658" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <length from="37681" to="29307"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="41" left-frame="98528726" y-origin="2678">
-        <Selection>
-          <Regions>
-            <Region id="1633658"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="41" left-frame="98528726" y-origin="2678">
-        <Selection>
-          <Regions>
-            <Region id="1633658"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1577421909" tv-usec="650602" name="Region end trim">
-    <StatefulDiffCommand obj-id="1431336" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <length from="129788" to="133975"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="41" left-frame="98528726" y-origin="2678">
-        <Selection>
-          <Regions>
-            <Region id="1431336"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="41" left-frame="98528726" y-origin="2678">
-        <Selection>
-          <Regions>
-            <Region id="1431336"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1577421912" tv-usec="714604" name="Region end trim">
-    <StatefulDiffCommand obj-id="1633658" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <length from="29307" to="37681"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="41" left-frame="98528726" y-origin="2678">
-        <Selection>
-          <Regions>
-            <Region id="1633658"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="41" left-frame="98528726" y-origin="2678">
-        <Selection>
-          <Regions>
-            <Region id="1633658"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1577597461" tv-usec="451923" name="Region end trim">
-    <StatefulDiffCommand obj-id="1070527" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <length from="548852" to="535899"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="656" left-frame="100155697" y-origin="2348">
-        <Selection>
-          <Regions>
-            <Region id="1070527"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="656" left-frame="100155697" y-origin="2348">
-        <Selection>
-          <Regions>
-            <Region id="1070527"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1577597569" tv-usec="367104" name="region copy">
-    <StatefulDiffCommand obj-id="786812" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="1790121"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="5248" left-frame="97572112" y-origin="2348">
-        <Selection>
-          <Regions>
-            <Region id="1432151"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="5248" left-frame="97572112" y-origin="2348">
-        <Selection>
-          <Regions>
-            <Region id="1790121"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1577597572" tv-usec="392250" name="region drag">
     <StatefulDiffCommand obj-id="1790121" type-name="ARDOUR::AudioRegion">
       <Changes>
@@ -650,6 +533,336 @@
       <SelectionMemento mouse-mode="MouseObject" zoom="656" left-frame="102973042" y-origin="0">
         <Selection>
           <Marker id="1869106" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578029170" tv-usec="867099" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="245" name="session" start="0" end="41053091" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6806" name="verse" start="2779636" end="2779636" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6816" name="chorus" start="4062545" end="4062545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6825" name="verse" start="4704000" end="4704000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6834" name="chorus" start="5986909" end="5986909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6843" name="verse" start="6628364" end="6628364" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6852" name="chorus" start="7911273" end="7911273" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="11614" name="Loop" start="109137305" end="109170798" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="134319" name="remix" start="10680217" end="10680217" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="234578" name="Punch" start="98662159" end="99009656" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
+        <Location id="497235" name="New arrangement" start="30682909" end="30682909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786830" name="live at 77" start="39315818" end="39315818" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786909" name="live at 80" start="42783682" end="42783682" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787282" name="live at 79" start="50855318" end="50855318" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787526" name="live at 158" start="58158545" end="58158545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846386" name="chorus" start="78390115" end="78390115" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846395" name="end chorus" start="79461912" end="79461912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846408" name="chorus-range" start="78390115" end="79461912" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
+        <Location id="907953" name="Song Start" start="97330786" end="97330786" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1869106" name="song end" start="103711330" end="103711330" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="245" name="session" start="97263798" end="102271102" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6806" name="verse" start="2779636" end="2779636" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6816" name="chorus" start="4062545" end="4062545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6825" name="verse" start="4704000" end="4704000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6834" name="chorus" start="5986909" end="5986909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6843" name="verse" start="6628364" end="6628364" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6852" name="chorus" start="7911273" end="7911273" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="11614" name="Loop" start="109137305" end="109170798" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="134319" name="remix" start="10680217" end="10680217" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="234578" name="Punch" start="98662159" end="99009656" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
+        <Location id="497235" name="New arrangement" start="30682909" end="30682909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786830" name="live at 77" start="39315818" end="39315818" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786909" name="live at 80" start="42783682" end="42783682" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787282" name="live at 79" start="50855318" end="50855318" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787526" name="live at 158" start="58158545" end="58158545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846386" name="chorus" start="78390115" end="78390115" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846395" name="end chorus" start="79461912" end="79461912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846408" name="chorus-range" start="78390115" end="79461912" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
+        <Location id="907953" name="Song Start" start="97330786" end="97330786" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1869106" name="song end" start="103711330" end="103711330" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4592" left-frame="95678912" y-origin="0">
+        <Selection>
+          <Marker id="245" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4592" left-frame="95678912" y-origin="0">
+        <Selection>
+          <Marker id="245" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578029175" tv-usec="721995" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="245" name="session" start="97263798" end="102271102" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6806" name="verse" start="2779636" end="2779636" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6816" name="chorus" start="4062545" end="4062545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6825" name="verse" start="4704000" end="4704000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6834" name="chorus" start="5986909" end="5986909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6843" name="verse" start="6628364" end="6628364" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6852" name="chorus" start="7911273" end="7911273" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="11614" name="Loop" start="109137305" end="109170798" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="134319" name="remix" start="10680217" end="10680217" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="234578" name="Punch" start="98662159" end="99009656" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
+        <Location id="497235" name="New arrangement" start="30682909" end="30682909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786830" name="live at 77" start="39315818" end="39315818" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786909" name="live at 80" start="42783682" end="42783682" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787282" name="live at 79" start="50855318" end="50855318" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787526" name="live at 158" start="58158545" end="58158545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846386" name="chorus" start="78390115" end="78390115" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846395" name="end chorus" start="79461912" end="79461912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846408" name="chorus-range" start="78390115" end="79461912" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
+        <Location id="907953" name="Song Start" start="97330786" end="97330786" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1869106" name="song end" start="103711330" end="103711330" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="245" name="session" start="97330786" end="102271102" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6806" name="verse" start="2779636" end="2779636" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6816" name="chorus" start="4062545" end="4062545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6825" name="verse" start="4704000" end="4704000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6834" name="chorus" start="5986909" end="5986909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6843" name="verse" start="6628364" end="6628364" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6852" name="chorus" start="7911273" end="7911273" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="11614" name="Loop" start="109137305" end="109170798" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="134319" name="remix" start="10680217" end="10680217" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="234578" name="Punch" start="98662159" end="99009656" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
+        <Location id="497235" name="New arrangement" start="30682909" end="30682909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786830" name="live at 77" start="39315818" end="39315818" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786909" name="live at 80" start="42783682" end="42783682" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787282" name="live at 79" start="50855318" end="50855318" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787526" name="live at 158" start="58158545" end="58158545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846386" name="chorus" start="78390115" end="78390115" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846395" name="end chorus" start="79461912" end="79461912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846408" name="chorus-range" start="78390115" end="79461912" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
+        <Location id="907953" name="Song Start" start="97330786" end="97330786" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1869106" name="song end" start="103711330" end="103711330" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="287" left-frame="97224407" y-origin="0">
+        <Selection>
+          <Marker id="245" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="287" left-frame="97224407" y-origin="0">
+        <Selection>
+          <Marker id="245" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578029185" tv-usec="628985" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="245" name="session" start="97330786" end="102271102" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6806" name="verse" start="2779636" end="2779636" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6816" name="chorus" start="4062545" end="4062545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6825" name="verse" start="4704000" end="4704000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6834" name="chorus" start="5986909" end="5986909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6843" name="verse" start="6628364" end="6628364" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6852" name="chorus" start="7911273" end="7911273" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="11614" name="Loop" start="109137305" end="109170798" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="134319" name="remix" start="10680217" end="10680217" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="234578" name="Punch" start="98662159" end="99009656" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
+        <Location id="497235" name="New arrangement" start="30682909" end="30682909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786830" name="live at 77" start="39315818" end="39315818" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786909" name="live at 80" start="42783682" end="42783682" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787282" name="live at 79" start="50855318" end="50855318" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787526" name="live at 158" start="58158545" end="58158545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846386" name="chorus" start="78390115" end="78390115" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846395" name="end chorus" start="79461912" end="79461912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846408" name="chorus-range" start="78390115" end="79461912" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
+        <Location id="907953" name="Song Start" start="97330786" end="97330786" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1869106" name="song end" start="103711330" end="103711330" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="245" name="session" start="97330786" end="102271102" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6806" name="verse" start="2779636" end="2779636" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6816" name="chorus" start="4062545" end="4062545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6825" name="verse" start="4704000" end="4704000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6834" name="chorus" start="5986909" end="5986909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6843" name="verse" start="6628364" end="6628364" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6852" name="chorus" start="7911273" end="7911273" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="11614" name="Loop" start="109137305" end="109170798" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="134319" name="remix" start="10680217" end="10680217" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="234578" name="Punch" start="98662159" end="99009656" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
+        <Location id="497235" name="New arrangement" start="30682909" end="30682909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786830" name="live at 77" start="39315818" end="39315818" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786909" name="live at 80" start="42783682" end="42783682" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787282" name="live at 79" start="50855318" end="50855318" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787526" name="live at 158" start="58158545" end="58158545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846386" name="chorus" start="78390115" end="78390115" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846395" name="end chorus" start="79461912" end="79461912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846408" name="chorus-range" start="78390115" end="79461912" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
+        <Location id="907953" name="Song Start" start="97347532" end="97347532" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1869106" name="song end" start="103711330" end="103711330" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="287" left-frame="97224407" y-origin="0">
+        <Selection>
+          <Marker id="907953" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="287" left-frame="97224407" y-origin="0">
+        <Selection>
+          <Marker id="907953" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578029221" tv-usec="537350" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="245" name="session" start="97330786" end="102271102" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6806" name="verse" start="2779636" end="2779636" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6816" name="chorus" start="4062545" end="4062545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6825" name="verse" start="4704000" end="4704000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6834" name="chorus" start="5986909" end="5986909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6843" name="verse" start="6628364" end="6628364" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6852" name="chorus" start="7911273" end="7911273" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="11614" name="Loop" start="109137305" end="109170798" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="134319" name="remix" start="10680217" end="10680217" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="234578" name="Punch" start="98662159" end="99009656" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
+        <Location id="497235" name="New arrangement" start="30682909" end="30682909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786830" name="live at 77" start="39315818" end="39315818" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786909" name="live at 80" start="42783682" end="42783682" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787282" name="live at 79" start="50855318" end="50855318" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787526" name="live at 158" start="58158545" end="58158545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846386" name="chorus" start="78390115" end="78390115" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846395" name="end chorus" start="79461912" end="79461912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846408" name="chorus-range" start="78390115" end="79461912" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
+        <Location id="907953" name="Song Start" start="97347532" end="97347532" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1869106" name="song end" start="103711330" end="103711330" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="245" name="session" start="97330786" end="103443381" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6806" name="verse" start="2779636" end="2779636" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6816" name="chorus" start="4062545" end="4062545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6825" name="verse" start="4704000" end="4704000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6834" name="chorus" start="5986909" end="5986909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6843" name="verse" start="6628364" end="6628364" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6852" name="chorus" start="7911273" end="7911273" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="11614" name="Loop" start="109137305" end="109170798" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="134319" name="remix" start="10680217" end="10680217" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="234578" name="Punch" start="98662159" end="99009656" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
+        <Location id="497235" name="New arrangement" start="30682909" end="30682909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786830" name="live at 77" start="39315818" end="39315818" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786909" name="live at 80" start="42783682" end="42783682" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787282" name="live at 79" start="50855318" end="50855318" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787526" name="live at 158" start="58158545" end="58158545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846386" name="chorus" start="78390115" end="78390115" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846395" name="end chorus" start="79461912" end="79461912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846408" name="chorus-range" start="78390115" end="79461912" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
+        <Location id="907953" name="Song Start" start="97347532" end="97347532" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1869106" name="song end" start="103711330" end="103711330" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="10728" left-frame="96494852" y-origin="0">
+        <Selection>
+          <Marker id="245" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="10728" left-frame="96494852" y-origin="0">
+        <Selection>
+          <Marker id="245" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578029225" tv-usec="805536" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="245" name="session" start="97330786" end="103443381" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6806" name="verse" start="2779636" end="2779636" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6816" name="chorus" start="4062545" end="4062545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6825" name="verse" start="4704000" end="4704000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6834" name="chorus" start="5986909" end="5986909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6843" name="verse" start="6628364" end="6628364" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6852" name="chorus" start="7911273" end="7911273" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="11614" name="Loop" start="109137305" end="109170798" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="134319" name="remix" start="10680217" end="10680217" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="234578" name="Punch" start="98662159" end="99009656" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
+        <Location id="497235" name="New arrangement" start="30682909" end="30682909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786830" name="live at 77" start="39315818" end="39315818" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786909" name="live at 80" start="42783682" end="42783682" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787282" name="live at 79" start="50855318" end="50855318" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787526" name="live at 158" start="58158545" end="58158545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846386" name="chorus" start="78390115" end="78390115" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846395" name="end chorus" start="79461912" end="79461912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846408" name="chorus-range" start="78390115" end="79461912" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
+        <Location id="907953" name="Song Start" start="97347532" end="97347532" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1869106" name="song end" start="103711330" end="103711330" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="245" name="session" start="97330786" end="103711330" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2499" name="first take" start="1707873" end="1707873" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6806" name="verse" start="2779636" end="2779636" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6816" name="chorus" start="4062545" end="4062545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6825" name="verse" start="4704000" end="4704000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6834" name="chorus" start="5986909" end="5986909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6843" name="verse" start="6628364" end="6628364" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="6852" name="chorus" start="7911273" end="7911273" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="11614" name="Loop" start="109137305" end="109170798" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="134319" name="remix" start="10680217" end="10680217" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="234578" name="Punch" start="98662159" end="99009656" flags="IsAutoPunch" locked="0" position-lock-style="AudioTime"/>
+        <Location id="497235" name="New arrangement" start="30682909" end="30682909" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786830" name="live at 77" start="39315818" end="39315818" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="786909" name="live at 80" start="42783682" end="42783682" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787282" name="live at 79" start="50855318" end="50855318" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="787526" name="live at 158" start="58158545" end="58158545" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846386" name="chorus" start="78390115" end="78390115" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846395" name="end chorus" start="79461912" end="79461912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="846408" name="chorus-range" start="78390115" end="79461912" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
+        <Location id="907953" name="Song Start" start="97347532" end="97347532" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790242" name="mark1" start="101329093" end="101329093" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1790246" name="mark2" start="101396080" end="101396080" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="1869106" name="song end" start="103711330" end="103711330" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="670" left-frame="102851508" y-origin="0">
+        <Selection>
+          <Marker id="245" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="670" left-frame="102851508" y-origin="0">
+        <Selection>
+          <Marker id="245" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
