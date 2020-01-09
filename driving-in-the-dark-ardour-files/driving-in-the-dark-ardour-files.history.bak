@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1577597572" tv-usec="392250" name="region drag">
-    <StatefulDiffCommand obj-id="1790121" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="100709460" to="100696900"/>
-        <beat from="4304.75" to="4304"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="656" left-frame="100589056" y-origin="2348">
-        <Selection>
-          <Regions>
-            <Region id="1790121"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="656" left-frame="100589056" y-origin="2348">
-        <Selection>
-          <Regions>
-            <Region id="1790121"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1577597579" tv-usec="29928" name="delete objects">
     <StatefulDiffCommand obj-id="786812" type-name="ARDOUR::AudioPlaylist">
       <Changes>
@@ -863,6 +839,26 @@
       <SelectionMemento mouse-mode="MouseObject" zoom="670" left-frame="102851508" y-origin="0">
         <Selection>
           <Marker id="245" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578543279" tv-usec="824360" name="set loop range from selection">
+    <MementoCommand obj-id="11614" type-name="ARDOUR::Location">
+      <Location id="11614" name="Loop" start="109137305" end="109170798" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+      <Location id="11614" name="Loop" start="98553305" end="100127507" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseRange" zoom="4751" left-frame="95191973" y-origin="0">
+        <Selection>
+          <StripableView id="1555000"/>
+          <AudioRange start="98553305" end="100127507"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseRange" zoom="4751" left-frame="95191973" y-origin="0">
+        <Selection>
+          <StripableView id="1555000"/>
+          <AudioRange start="98553305" end="100127507"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
