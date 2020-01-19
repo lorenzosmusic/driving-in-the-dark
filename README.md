@@ -1,5 +1,15 @@
 # driving-in-the-dark
-Working files for the song "Driving in the dark"
+## This is the Ardour DAW file for the song "Driving in the dark" by Lorenzo's Music.
+
+This is a song recorded by the creative commons band [Lorenzo's Music](https://www.lorenzosmusic.com) using only open-source tools and software.
+
+We use the free and open source [Linux](https://www.linux.org/) based operating system [Ubuntu Studio](https://ubuntustudio.org/). The Ubuntu studio OS has programs and plug-ins for this project preinstalled and ready to use.
+
+The song is recorded with [Ardour](https://ardour.org/) an open-source digital audio workstation.
+
+Most of the effects used come from the open-source audio effects software projects [Calf Studio Gear](https://calf-studio-gear.org/) or [Guitarix virtual guitar amplifier plugins](https://guitarix.org/).
+
+We use Github for the working Ardour files of our songs to collaborate, make changes and record our parts outside of the studio. View the description of this process on our website [https://www.lorenzosmusic.com/2019/05/how-we-came-up-with-way-to-use-github.html](https://www.lorenzosmusic.com/2019/05/how-we-came-up-with-way-to-use-github.html)
 
 ---
 
